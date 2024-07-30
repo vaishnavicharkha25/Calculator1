@@ -1,0 +1,18 @@
+2024-07-30T18:50:03.852Z info: Server is running on port 5000
+2024-07-30T18:50:03.910Z info: Connected to MySQL and synchronized models
+2024-07-30T18:50:13.128Z info: HTTP GET /api/logs
+2024-07-30T18:50:13.128Z info: Fetched logs: []
+2024-07-30T18:50:13.133Z info: HTTP GET /api/logs
+2024-07-30T18:50:13.133Z info: Fetched logs: []
+2024-07-30T18:50:18.945Z info: HTTP POST /api/logs
+2024-07-30T18:50:18.946Z info: Created log: {"created_on":"2024-07-30T18:50:18.934Z","id":1,"expression":"700*5","is_valid":true,"output":3500,"updatedAt":"2024-07-30T18:50:18.935Z","createdAt":"2024-07-30T18:50:18.935Z"}
+2024-07-30T18:50:18.950Z info: HTTP GET /api/logs
+2024-07-30T18:50:18.950Z info: Fetched logs: [{"id":1,"expression":"700*5","is_valid":true,"output":3500,"created_on":"2024-07-30T18:50:18.000Z","createdAt":"2024-07-30T18:50:18.000Z","updatedAt":"2024-07-30T18:50:18.000Z"}]
+2024-07-30T18:50:31.209Z info: HTTP POST /api/logs
+2024-07-30T18:50:31.210Z info: Created log: {"created_on":"2024-07-30T18:50:31.201Z","id":2,"expression":"500+4-5*9","is_valid":true,"output":459,"updatedAt":"2024-07-30T18:50:31.201Z","createdAt":"2024-07-30T18:50:31.201Z"}
+2024-07-30T18:50:31.215Z info: HTTP GET /api/logs
+2024-07-30T18:50:31.215Z info: Fetched logs: [{"id":2,"expression":"500+4-5*9","is_valid":true,"output":459,"created_on":"2024-07-30T18:50:31.000Z","createdAt":"2024-07-30T18:50:31.000Z","updatedAt":"2024-07-30T18:50:31.000Z"},{"id":1,"expression":"700*5","is_valid":true,"output":3500,"created_on":"2024-07-30T18:50:18.000Z","createdAt":"2024-07-30T18:50:18.000Z","updatedAt":"2024-07-30T18:50:18.000Z"}]
+2024-07-30T18:50:38.015Z info: HTTP POST /api/logs
+2024-07-30T18:50:38.016Z info: Created log: {"created_on":"2024-07-30T18:50:38.011Z","id":3,"expression":"4599**","is_valid":false,"output":null,"updatedAt":"2024-07-30T18:50:38.011Z","createdAt":"2024-07-30T18:50:38.011Z"}
+2024-07-30T18:50:40.174Z info: HTTP GET /api/logs
+2024-07-30T18:50:40.175Z info: Fetched logs: [{"id":3,"expression":"4599**","is_valid":false,"output":null,"created_on":"2024-07-30T18:50:38.000Z","createdAt":"2024-07-30T18:50:38.000Z","updatedAt":"2024-07-30T18:50:38.000Z"},{"id":2,"expression":"500+4-5*9","is_valid":true,"output":459,"created_on":"2024-07-30T18:50:31.000Z","createdAt":"2024-07-30T18:50:31.000Z","updatedAt":"2024-07-30T18:50:31.000Z"},{"id":1,"expression":"700*5","is_valid":true,"output":3500,"created_on":"2024-07-30T18:50:18.000Z","createdAt":"2024-07-30T18:50:18.000Z","updatedAt":"2024-07-30T18:50:18.000Z"}]
