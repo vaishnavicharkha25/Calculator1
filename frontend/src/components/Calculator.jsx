@@ -1,7 +1,7 @@
-// src/Calculator.js
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import '../styles/Calculator.css';
+import Home from './Home';
 
 const Calculator = () => {
   const [input, setInput] = useState('');
@@ -76,6 +76,7 @@ const Calculator = () => {
   };
 
   return (
+    <div> <Home/>
     <div className='main'>
     <div className="calculator">
       <div className="display">
@@ -130,6 +131,7 @@ const Calculator = () => {
           </tbody>
         </table>
       </div>
+    </div>
     </div>
   );
 };

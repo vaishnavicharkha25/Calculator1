@@ -5,8 +5,10 @@ const winston = require('winston');
 const expressWinston = require('express-winston');
 const { Sequelize, DataTypes } = require('sequelize');
 const path = require('path');
+const http = require('http');
+const WebSocket = require('ws');
 
-// Initialize express app
+//express app
 const app = express();
 app.use(bodyParser.json());
 app.use(cors());
@@ -37,13 +39,13 @@ app.use(expressWinston.logger({
   )
 }));
 
-// Setup Sequelize
+// Sequelize
 const sequelize = new Sequelize('calculator', 'root', '', {
   host: 'localhost',
   dialect: 'mysql'
 });
 
-// Define the calculator_logs model
+// Define the calculator_logs 
 const CalculatorLog = sequelize.define('CalculatorLog', {
   expression: {
     type: DataTypes.STRING,
@@ -82,6 +84,11 @@ app.post('/api/logs', async (req, res) => {
     const log = await CalculatorLog.create({ expression, is_valid, output });
     res.status(201).json(log);
     logger.info(`Created log: ${JSON.stringify(log.toJSON())}`);
+    wss.clients.forEach(client => {
+      if (client.readyState === WebSocket.OPEN) {
+        client.send(JSON.stringify(log));
+      }
+    });
   } catch (error) {
     logger.error(`Error creating log: ${error.message}`);
     res.status(500).json({ error: 'Internal server error' });
@@ -103,8 +110,27 @@ app.get('/api/logs', async (req, res) => {
   }
 });
 
+// HTTP server
+const server = http.createServer(app);
+
+// Setup WebSocket server
+const wss = new WebSocket.Server({ server });
+
+wss.on('connection', (ws) => {
+  console.log('WebSocket connection established');
+  ws.on('message', (message) => {
+    console.log('received:', message);
+  });
+  ws.on('close', () => {
+    console.log('WebSocket connection closed');
+  });
+  ws.onerror = (error) => {
+    console.error('WebSocket error:', error);
+  };
+});
+
 // Start the server
 const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => {
+server.listen(PORT, () => {
   logger.info(`Server is running on port ${PORT}`);
 });

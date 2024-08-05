@@ -99,4 +99,13 @@
     background-color: #7C55A0;
     color: white;
   }
+  .log-table h2{
+    margin-top: 0;
+  }
+
+  @media screen and (max-width: 800px) {
+    .main{
+      display: block;
+    }
+  }
   

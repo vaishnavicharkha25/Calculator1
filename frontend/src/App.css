@@ -3,3 +3,14 @@ html {
   margin: 0;
   font-family: Arial, sans-serif;
 }
+.btn{
+  background-color: #7C55A0;
+  border-radius: 50px;
+  margin: 10px;
+  margin-bottom: 0;
+}
+.home{
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
