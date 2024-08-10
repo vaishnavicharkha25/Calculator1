@@ -5,7 +5,6 @@ import Calculator from './components/Calculator';
 import ShortPollingCalculator from './components/ShortPollingCalculator';
 import LongPollingCalculator from './components/LongPollingCalculator';
 import WebSocketCalculator from './components/WebSocketCalculator';
-import Home from './components/Home';
 
 
 function App() {

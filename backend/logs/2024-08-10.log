@@ -1,0 +1,1586 @@
+2024-08-10T04:56:34.331Z info: Server is running on port 5000
+2024-08-10T04:56:34.363Z error: Error synchronizing models: 
+2024-08-10T05:05:35.423Z info: Server is running on port 5000
+2024-08-10T05:05:35.506Z info: Connected to MySQL and synchronized models
+2024-08-10T05:05:52.956Z info: HTTP GET /api/logs
+2024-08-10T05:05:52.956Z info: Fetched logs: []
+2024-08-10T05:05:56.335Z info: Client disconnected from long polling
+2024-08-10T05:06:11.130Z info: HTTP POST /api/logs/batch
+2024-08-10T05:06:11.463Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:06:11.464Z info: Client disconnected from long polling
+2024-08-10T05:06:14.943Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:06:24.925Z info: HTTP POST /api/logs/batch
+2024-08-10T05:06:24.939Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:06:24.940Z info: Client disconnected from long polling
+2024-08-10T05:06:24.954Z info: HTTP GET /api/logs/long-polling?lastId=5
+2024-08-10T05:06:24.955Z info: Client disconnected from long polling
+2024-08-10T05:06:26.567Z info: HTTP GET /api/logs/long-polling?lastId=4
+2024-08-10T05:06:26.568Z info: Client disconnected from long polling
+2024-08-10T05:07:48.209Z info: Client disconnected from long polling
+2024-08-10T05:07:48.367Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:07:48.368Z info: Client disconnected from long polling
+2024-08-10T05:07:48.392Z info: HTTP GET /api/logs/long-polling?lastId=5
+2024-08-10T05:07:48.393Z info: Client disconnected from long polling
+2024-08-10T05:07:50.945Z info: Client disconnected from long polling
+2024-08-10T05:07:51.098Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:07:51.099Z info: Client disconnected from long polling
+2024-08-10T05:07:51.153Z info: HTTP GET /api/logs/long-polling?lastId=5
+2024-08-10T05:07:51.154Z info: Client disconnected from long polling
+2024-08-10T05:07:56.471Z info: Client disconnected from long polling
+2024-08-10T05:07:56.595Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:07:56.596Z info: Client disconnected from long polling
+2024-08-10T05:07:56.628Z info: HTTP GET /api/logs/long-polling?lastId=5
+2024-08-10T05:07:56.629Z info: Client disconnected from long polling
+2024-08-10T05:07:59.560Z info: HTTP GET /api/logs
+2024-08-10T05:07:59.561Z info: Fetched logs: [{"id":5,"expression":"658+6","is_valid":true,"output":664,"created_on":"2024-08-10T05:06:24.000Z","createdAt":"2024-08-10T05:06:24.000Z","updatedAt":"2024-08-10T05:06:24.000Z"},{"id":6,"expression":"664+2","is_valid":true,"output":666,"created_on":"2024-08-10T05:06:24.000Z","createdAt":"2024-08-10T05:06:24.000Z","updatedAt":"2024-08-10T05:06:24.000Z"},{"id":7,"expression":"666","is_valid":true,"output":666,"created_on":"2024-08-10T05:06:24.000Z","createdAt":"2024-08-10T05:06:24.000Z","updatedAt":"2024-08-10T05:06:24.000Z"},{"id":8,"expression":"666+3","is_valid":true,"output":669,"created_on":"2024-08-10T05:06:24.000Z","createdAt":"2024-08-10T05:06:24.000Z","updatedAt":"2024-08-10T05:06:24.000Z"},{"id":1,"expression":"65","is_valid":true,"output":65,"created_on":"2024-08-10T05:06:11.000Z","createdAt":"2024-08-10T05:06:11.000Z","updatedAt":"2024-08-10T05:06:11.000Z"},{"id":2,"expression":"65","is_valid":true,"output":65,"created_on":"2024-08-10T05:06:11.000Z","createdAt":"2024-08-10T05:06:11.000Z","updatedAt":"2024-08-10T05:06:11.000Z"},{"id":3,"expression":"653","is_valid":true,"output":653,"created_on":"2024-08-10T05:06:11.000Z","createdAt":"2024-08-10T05:06:11.000Z","updatedAt":"2024-08-10T05:06:11.000Z"},{"id":4,"expression":"653+2","is_valid":true,"output":655,"created_on":"2024-08-10T05:06:11.000Z","createdAt":"2024-08-10T05:06:11.000Z","updatedAt":"2024-08-10T05:06:11.000Z"}]
+2024-08-10T05:08:00.722Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:08:00.724Z info: Client disconnected from long polling
+2024-08-10T05:08:00.741Z info: HTTP GET /api/logs/long-polling?lastId=5
+2024-08-10T05:08:00.741Z info: Client disconnected from long polling
+2024-08-10T05:08:38.523Z info: Client disconnected from long polling
+2024-08-10T05:08:38.524Z info: Client disconnected from long polling
+2024-08-10T05:08:38.687Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:08:38.688Z info: Client disconnected from long polling
+2024-08-10T05:08:38.715Z info: HTTP GET /api/logs/long-polling?lastId=5
+2024-08-10T05:08:38.716Z info: Client disconnected from long polling
+2024-08-10T05:08:58.011Z info: HTTP POST /api/logs/batch
+2024-08-10T05:08:58.033Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:08:58.034Z info: Client disconnected from long polling
+2024-08-10T05:08:58.055Z info: HTTP GET /api/logs/long-polling?lastId=5
+2024-08-10T05:08:58.056Z info: Client disconnected from long polling
+2024-08-10T05:08:58.069Z info: HTTP GET /api/logs/long-polling?lastId=10
+2024-08-10T05:08:58.069Z info: Client disconnected from long polling
+2024-08-10T05:08:58.591Z info: HTTP GET /api/logs/long-polling?lastId=8
+2024-08-10T05:08:58.784Z info: HTTP GET /api/logs/long-polling?lastId=8
+2024-08-10T05:08:58.785Z info: Client disconnected from long polling
+2024-08-10T05:09:00.352Z info: HTTP GET /api/logs/long-polling?lastId=8
+2024-08-10T05:09:00.852Z info: HTTP GET /api/logs/long-polling?lastId=8
+2024-08-10T05:09:01.353Z info: HTTP GET /api/logs/long-polling?lastId=8
+2024-08-10T05:09:01.797Z info: HTTP GET /api/logs/long-polling?lastId=8
+2024-08-10T05:09:02.696Z info: HTTP GET /api/logs
+2024-08-10T05:09:02.697Z info: Fetched logs: [{"id":9,"expression":"9-6","is_valid":true,"output":3,"created_on":"2024-08-10T05:08:57.000Z","createdAt":"2024-08-10T05:08:57.000Z","updatedAt":"2024-08-10T05:08:57.000Z"},{"id":10,"expression":"3+2","is_valid":true,"output":5,"created_on":"2024-08-10T05:08:57.000Z","createdAt":"2024-08-10T05:08:57.000Z","updatedAt":"2024-08-10T05:08:57.000Z"},{"id":11,"expression":"5+3","is_valid":true,"output":8,"created_on":"2024-08-10T05:08:57.000Z","createdAt":"2024-08-10T05:08:57.000Z","updatedAt":"2024-08-10T05:08:57.000Z"},{"id":12,"expression":"8+5","is_valid":true,"output":13,"created_on":"2024-08-10T05:08:57.000Z","createdAt":"2024-08-10T05:08:57.000Z","updatedAt":"2024-08-10T05:08:57.000Z"},{"id":5,"expression":"658+6","is_valid":true,"output":664,"created_on":"2024-08-10T05:06:24.000Z","createdAt":"2024-08-10T05:06:24.000Z","updatedAt":"2024-08-10T05:06:24.000Z"},{"id":6,"expression":"664+2","is_valid":true,"output":666,"created_on":"2024-08-10T05:06:24.000Z","createdAt":"2024-08-10T05:06:24.000Z","updatedAt":"2024-08-10T05:06:24.000Z"},{"id":7,"expression":"666","is_valid":true,"output":666,"created_on":"2024-08-10T05:06:24.000Z","createdAt":"2024-08-10T05:06:24.000Z","updatedAt":"2024-08-10T05:06:24.000Z"},{"id":8,"expression":"666+3","is_valid":true,"output":669,"created_on":"2024-08-10T05:06:24.000Z","createdAt":"2024-08-10T05:06:24.000Z","updatedAt":"2024-08-10T05:06:24.000Z"},{"id":1,"expression":"65","is_valid":true,"output":65,"created_on":"2024-08-10T05:06:11.000Z","createdAt":"2024-08-10T05:06:11.000Z","updatedAt":"2024-08-10T05:06:11.000Z"},{"id":2,"expression":"65","is_valid":true,"output":65,"created_on":"2024-08-10T05:06:11.000Z","createdAt":"2024-08-10T05:06:11.000Z","updatedAt":"2024-08-10T05:06:11.000Z"}]
+2024-08-10T05:09:51.643Z info: Server is running on port 5000
+2024-08-10T05:09:51.697Z info: Connected to MySQL and synchronized models
+2024-08-10T05:14:09.588Z info: Server is running on port 5000
+2024-08-10T05:14:09.648Z info: Connected to MySQL and synchronized models
+2024-08-10T05:14:12.651Z info: HTTP GET /api/logs
+2024-08-10T05:14:12.653Z info: Fetched logs: [{"id":9,"expression":"9-6","is_valid":true,"output":3,"created_on":"2024-08-10T05:08:57.000Z","createdAt":"2024-08-10T05:08:57.000Z","updatedAt":"2024-08-10T05:08:57.000Z"},{"id":10,"expression":"3+2","is_valid":true,"output":5,"created_on":"2024-08-10T05:08:57.000Z","createdAt":"2024-08-10T05:08:57.000Z","updatedAt":"2024-08-10T05:08:57.000Z"},{"id":11,"expression":"5+3","is_valid":true,"output":8,"created_on":"2024-08-10T05:08:57.000Z","createdAt":"2024-08-10T05:08:57.000Z","updatedAt":"2024-08-10T05:08:57.000Z"},{"id":12,"expression":"8+5","is_valid":true,"output":13,"created_on":"2024-08-10T05:08:57.000Z","createdAt":"2024-08-10T05:08:57.000Z","updatedAt":"2024-08-10T05:08:57.000Z"},{"id":5,"expression":"658+6","is_valid":true,"output":664,"created_on":"2024-08-10T05:06:24.000Z","createdAt":"2024-08-10T05:06:24.000Z","updatedAt":"2024-08-10T05:06:24.000Z"},{"id":6,"expression":"664+2","is_valid":true,"output":666,"created_on":"2024-08-10T05:06:24.000Z","createdAt":"2024-08-10T05:06:24.000Z","updatedAt":"2024-08-10T05:06:24.000Z"},{"id":7,"expression":"666","is_valid":true,"output":666,"created_on":"2024-08-10T05:06:24.000Z","createdAt":"2024-08-10T05:06:24.000Z","updatedAt":"2024-08-10T05:06:24.000Z"},{"id":8,"expression":"666+3","is_valid":true,"output":669,"created_on":"2024-08-10T05:06:24.000Z","createdAt":"2024-08-10T05:06:24.000Z","updatedAt":"2024-08-10T05:06:24.000Z"},{"id":1,"expression":"65","is_valid":true,"output":65,"created_on":"2024-08-10T05:06:11.000Z","createdAt":"2024-08-10T05:06:11.000Z","updatedAt":"2024-08-10T05:06:11.000Z"},{"id":2,"expression":"65","is_valid":true,"output":65,"created_on":"2024-08-10T05:06:11.000Z","createdAt":"2024-08-10T05:06:11.000Z","updatedAt":"2024-08-10T05:06:11.000Z"}]
+2024-08-10T05:14:13.776Z error: Error streaming logs: Unknown column 'NaN' in 'where clause'
+2024-08-10T05:14:13.777Z info: HTTP GET /api/logs/stream?lastId=undefined
+2024-08-10T05:14:13.778Z info: Client disconnected from streaming
+2024-08-10T05:16:24.719Z info: Server is running on port 5000
+2024-08-10T05:16:24.777Z info: Connected to MySQL and synchronized models
+2024-08-10T05:17:16.819Z info: Client disconnected from streaming
+2024-08-10T05:17:16.820Z info: Client disconnected from streaming
+2024-08-10T05:17:24.821Z info: HTTP POST /api/logs
+2024-08-10T05:17:24.822Z info: Created log: {"created_on":"2024-08-10T05:17:24.780Z","id":13,"expression":"3+3","is_valid":true,"output":6,"updatedAt":"2024-08-10T05:17:24.782Z","createdAt":"2024-08-10T05:17:24.782Z"}
+2024-08-10T05:17:29.510Z info: HTTP POST /api/logs
+2024-08-10T05:17:29.511Z info: Created log: {"created_on":"2024-08-10T05:17:29.501Z","id":14,"expression":"6+3","is_valid":true,"output":9,"updatedAt":"2024-08-10T05:17:29.501Z","createdAt":"2024-08-10T05:17:29.501Z"}
+2024-08-10T05:17:33.535Z info: HTTP POST /api/logs
+2024-08-10T05:17:33.535Z info: Created log: {"created_on":"2024-08-10T05:17:33.525Z","id":15,"expression":"93","is_valid":true,"output":93,"updatedAt":"2024-08-10T05:17:33.525Z","createdAt":"2024-08-10T05:17:33.525Z"}
+2024-08-10T05:17:36.209Z info: HTTP POST /api/logs
+2024-08-10T05:17:36.210Z info: Created log: {"created_on":"2024-08-10T05:17:36.200Z","id":16,"expression":"93+2","is_valid":true,"output":95,"updatedAt":"2024-08-10T05:17:36.200Z","createdAt":"2024-08-10T05:17:36.200Z"}
+2024-08-10T05:17:38.532Z info: HTTP POST /api/logs
+2024-08-10T05:17:38.532Z info: Created log: {"created_on":"2024-08-10T05:17:38.521Z","id":17,"expression":"95+3","is_valid":true,"output":98,"updatedAt":"2024-08-10T05:17:38.521Z","createdAt":"2024-08-10T05:17:38.521Z"}
+2024-08-10T05:17:48.871Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:17:48.871Z info: Client disconnected from long polling
+2024-08-10T05:18:10.288Z info: Server is running on port 5000
+2024-08-10T05:18:10.349Z info: Connected to MySQL and synchronized models
+2024-08-10T05:18:13.123Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:18:13.124Z info: Client disconnected from long polling
+2024-08-10T05:18:17.701Z info: HTTP POST /api/logs
+2024-08-10T05:18:17.702Z info: Created log: {"created_on":"2024-08-10T05:18:17.657Z","id":18,"expression":"3+2","is_valid":true,"output":5,"updatedAt":"2024-08-10T05:18:17.658Z","createdAt":"2024-08-10T05:18:17.658Z"}
+2024-08-10T05:18:17.714Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:18:17.715Z info: Client disconnected from long polling
+2024-08-10T05:18:18.162Z info: HTTP GET /api/logs/long-polling?lastId=17
+2024-08-10T05:18:18.163Z info: Client disconnected from long polling
+2024-08-10T05:28:23.918Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:28:23.920Z info: Client disconnected from long polling
+2024-08-10T05:28:23.977Z info: HTTP GET /api/logs/long-polling?lastId=12
+2024-08-10T05:28:23.978Z info: Client disconnected from long polling
+2024-08-10T05:28:24.001Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:28:24.002Z info: Client disconnected from long polling
+2024-08-10T05:28:24.051Z info: HTTP GET /api/logs/long-polling?lastId=12
+2024-08-10T05:28:24.052Z info: Client disconnected from long polling
+2024-08-10T05:28:24.081Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:28:24.082Z info: Client disconnected from long polling
+2024-08-10T05:28:24.129Z info: HTTP GET /api/logs/long-polling?lastId=12
+2024-08-10T05:28:24.129Z info: Client disconnected from long polling
+2024-08-10T05:28:24.156Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:28:24.156Z info: Client disconnected from long polling
+2024-08-10T05:28:24.221Z info: HTTP GET /api/logs/long-polling?lastId=12
+2024-08-10T05:28:24.222Z info: Client disconnected from long polling
+2024-08-10T05:28:24.262Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:28:24.263Z info: Client disconnected from long polling
+2024-08-10T05:28:24.357Z info: HTTP GET /api/logs/long-polling?lastId=12
+2024-08-10T05:28:24.358Z info: Client disconnected from long polling
+2024-08-10T05:28:24.427Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:28:24.427Z info: Client disconnected from long polling
+2024-08-10T05:28:24.529Z info: HTTP GET /api/logs/long-polling?lastId=12
+2024-08-10T05:28:24.529Z info: Client disconnected from long polling
+2024-08-10T05:28:24.581Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:28:24.582Z info: Client disconnected from long polling
+2024-08-10T05:28:24.712Z info: HTTP GET /api/logs/long-polling?lastId=12
+2024-08-10T05:28:24.712Z info: Client disconnected from long polling
+2024-08-10T05:28:24.776Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:28:24.776Z info: Client disconnected from long polling
+2024-08-10T05:28:28.057Z info: Server is running on port 5000
+2024-08-10T05:28:28.119Z info: Connected to MySQL and synchronized models
+2024-08-10T05:28:29.276Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:28:29.279Z info: Client disconnected from long polling
+2024-08-10T05:28:29.283Z info: HTTP GET /api/logs/long-polling?lastId=12
+2024-08-10T05:28:29.284Z info: Client disconnected from long polling
+2024-08-10T05:28:29.327Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:28:29.329Z info: Client disconnected from long polling
+2024-08-10T05:28:29.331Z info: HTTP GET /api/logs/long-polling?lastId=12
+2024-08-10T05:28:29.332Z info: Client disconnected from long polling
+2024-08-10T05:28:29.346Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:28:29.348Z info: Client disconnected from long polling
+2024-08-10T05:28:29.354Z info: HTTP GET /api/logs/long-polling?lastId=12
+2024-08-10T05:28:29.360Z info: Client disconnected from long polling
+2024-08-10T05:28:29.376Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:28:29.380Z info: Client disconnected from long polling
+2024-08-10T05:28:29.393Z info: HTTP GET /api/logs/long-polling?lastId=12
+2024-08-10T05:28:29.398Z info: Client disconnected from long polling
+2024-08-10T05:28:29.511Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:28:29.512Z info: Client disconnected from long polling
+2024-08-10T05:28:30.367Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:28:30.368Z info: Client disconnected from long polling
+2024-08-10T05:28:30.374Z info: HTTP GET /api/logs/long-polling?lastId=12
+2024-08-10T05:28:30.375Z info: Client disconnected from long polling
+2024-08-10T05:28:30.382Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:28:30.382Z info: Client disconnected from long polling
+2024-08-10T05:28:30.387Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:28:30.388Z info: Client disconnected from long polling
+2024-08-10T05:28:30.821Z info: HTTP GET /api/logs/long-polling?lastId=12
+2024-08-10T05:28:30.822Z info: Client disconnected from long polling
+2024-08-10T05:28:30.823Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:28:30.823Z info: Client disconnected from long polling
+2024-08-10T05:28:30.832Z info: HTTP GET /api/logs/long-polling?lastId=12
+2024-08-10T05:28:30.832Z info: Client disconnected from long polling
+2024-08-10T05:28:30.834Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:28:30.834Z info: Client disconnected from long polling
+2024-08-10T05:28:31.750Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:28:31.750Z info: Client disconnected from long polling
+2024-08-10T05:28:33.126Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:28:33.126Z info: Client disconnected from long polling
+2024-08-10T05:28:33.820Z info: HTTP GET /api/logs/long-polling?lastId=12
+2024-08-10T05:28:33.821Z info: Client disconnected from long polling
+2024-08-10T05:28:33.823Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:28:33.823Z info: Client disconnected from long polling
+2024-08-10T05:28:34.330Z info: Client disconnected from long polling
+2024-08-10T05:28:34.465Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:28:34.466Z info: Client disconnected from long polling
+2024-08-10T05:28:34.669Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:28:34.669Z info: Client disconnected from long polling
+2024-08-10T05:28:34.711Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:28:34.712Z info: Client disconnected from long polling
+2024-08-10T05:28:35.099Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:28:35.100Z info: Client disconnected from long polling
+2024-08-10T05:28:35.178Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:28:35.178Z info: Client disconnected from long polling
+2024-08-10T05:28:35.683Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:28:35.684Z info: Client disconnected from long polling
+2024-08-10T05:28:35.792Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:28:35.793Z info: Client disconnected from long polling
+2024-08-10T05:28:37.289Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:28:37.290Z info: Client disconnected from long polling
+2024-08-10T05:28:37.405Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:28:37.405Z info: Client disconnected from long polling
+2024-08-10T05:28:38.121Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:28:38.121Z info: Client disconnected from long polling
+2024-08-10T05:28:38.298Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:28:38.299Z info: Client disconnected from long polling
+2024-08-10T05:28:39.222Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:28:39.222Z info: Client disconnected from long polling
+2024-08-10T05:28:39.481Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:28:39.481Z info: Client disconnected from long polling
+2024-08-10T05:28:40.091Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:28:40.092Z info: Client disconnected from long polling
+2024-08-10T05:28:40.095Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:28:40.095Z info: Client disconnected from long polling
+2024-08-10T05:28:40.104Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:28:40.105Z info: Client disconnected from long polling
+2024-08-10T05:28:40.685Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:28:40.685Z info: Client disconnected from long polling
+2024-08-10T05:28:41.596Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:28:41.597Z info: Client disconnected from long polling
+2024-08-10T05:28:41.599Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:28:41.600Z info: Client disconnected from long polling
+2024-08-10T05:28:41.606Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:28:41.606Z info: Client disconnected from long polling
+2024-08-10T05:28:42.228Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:28:42.229Z info: Client disconnected from long polling
+2024-08-10T05:28:42.233Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:28:42.235Z info: Client disconnected from long polling
+2024-08-10T05:28:43.130Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:28:43.131Z info: Client disconnected from long polling
+2024-08-10T05:28:44.077Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:28:44.077Z info: Client disconnected from long polling
+2024-08-10T05:28:44.079Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:28:44.080Z info: Client disconnected from long polling
+2024-08-10T05:28:44.085Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:28:44.086Z info: Client disconnected from long polling
+2024-08-10T05:28:45.004Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:28:45.005Z info: Client disconnected from long polling
+2024-08-10T05:28:45.006Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:28:45.007Z info: Client disconnected from long polling
+2024-08-10T05:28:45.010Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:28:45.011Z info: Client disconnected from long polling
+2024-08-10T05:28:46.022Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:28:46.022Z info: Client disconnected from long polling
+2024-08-10T05:28:48.022Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:28:48.023Z info: Client disconnected from long polling
+2024-08-10T05:28:48.025Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:28:48.025Z info: Client disconnected from long polling
+2024-08-10T05:28:48.029Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:28:48.030Z info: Client disconnected from long polling
+2024-08-10T05:28:48.034Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:28:48.034Z info: Client disconnected from long polling
+2024-08-10T05:28:48.040Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:28:48.040Z info: Client disconnected from long polling
+2024-08-10T05:28:49.366Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:28:49.366Z info: Client disconnected from long polling
+2024-08-10T05:28:49.369Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:28:49.369Z info: Client disconnected from long polling
+2024-08-10T05:28:49.375Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:28:49.376Z info: Client disconnected from long polling
+2024-08-10T05:28:49.377Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:28:49.377Z info: Client disconnected from long polling
+2024-08-10T05:28:49.387Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:28:49.387Z info: Client disconnected from long polling
+2024-08-10T05:28:49.389Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:28:49.389Z info: Client disconnected from long polling
+2024-08-10T05:28:49.394Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:28:49.394Z info: Client disconnected from long polling
+2024-08-10T05:28:52.209Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:28:52.210Z info: Client disconnected from long polling
+2024-08-10T05:28:55.220Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:28:55.221Z info: Client disconnected from long polling
+2024-08-10T05:28:55.226Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:28:55.227Z info: Client disconnected from long polling
+2024-08-10T05:28:55.228Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:28:55.228Z info: Client disconnected from long polling
+2024-08-10T05:28:55.238Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:28:55.238Z info: Client disconnected from long polling
+2024-08-10T05:28:55.274Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:28:55.275Z info: Client disconnected from long polling
+2024-08-10T05:28:55.279Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:28:55.279Z info: Client disconnected from long polling
+2024-08-10T05:28:58.302Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:28:58.302Z info: Client disconnected from long polling
+2024-08-10T05:28:59.896Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:28:59.896Z info: Client disconnected from long polling
+2024-08-10T05:28:59.900Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:28:59.901Z info: Client disconnected from long polling
+2024-08-10T05:28:59.909Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:28:59.909Z info: Client disconnected from long polling
+2024-08-10T05:28:59.912Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:28:59.912Z info: Client disconnected from long polling
+2024-08-10T05:28:59.920Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:28:59.920Z info: Client disconnected from long polling
+2024-08-10T05:28:59.922Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:28:59.922Z info: Client disconnected from long polling
+2024-08-10T05:28:59.928Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:28:59.929Z info: Client disconnected from long polling
+2024-08-10T05:28:59.930Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:28:59.931Z info: Client disconnected from long polling
+2024-08-10T05:28:59.936Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:28:59.937Z info: Client disconnected from long polling
+2024-08-10T05:28:59.939Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:28:59.939Z info: Client disconnected from long polling
+2024-08-10T05:28:59.948Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:28:59.948Z info: Client disconnected from long polling
+2024-08-10T05:28:59.952Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:28:59.953Z info: Client disconnected from long polling
+2024-08-10T05:28:59.957Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:28:59.957Z info: Client disconnected from long polling
+2024-08-10T05:29:02.787Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:29:02.788Z info: Client disconnected from long polling
+2024-08-10T05:29:02.798Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:29:02.798Z info: Client disconnected from long polling
+2024-08-10T05:29:06.191Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:29:06.191Z info: Client disconnected from long polling
+2024-08-10T05:29:08.777Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:29:08.778Z info: Client disconnected from long polling
+2024-08-10T05:29:08.782Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:29:08.782Z info: Client disconnected from long polling
+2024-08-10T05:29:08.789Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:29:08.789Z info: Client disconnected from long polling
+2024-08-10T05:29:08.791Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:29:08.792Z info: Client disconnected from long polling
+2024-08-10T05:29:08.799Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:29:08.799Z info: Client disconnected from long polling
+2024-08-10T05:29:08.801Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:29:08.802Z info: Client disconnected from long polling
+2024-08-10T05:29:08.809Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:29:08.810Z info: Client disconnected from long polling
+2024-08-10T05:29:08.812Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:29:08.812Z info: Client disconnected from long polling
+2024-08-10T05:29:08.819Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:29:08.819Z info: Client disconnected from long polling
+2024-08-10T05:29:08.821Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:29:08.821Z info: Client disconnected from long polling
+2024-08-10T05:29:08.827Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:29:08.828Z info: Client disconnected from long polling
+2024-08-10T05:29:08.832Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:29:08.832Z info: Client disconnected from long polling
+2024-08-10T05:29:08.906Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:29:08.906Z info: Client disconnected from long polling
+2024-08-10T05:29:08.907Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:29:08.908Z info: Client disconnected from long polling
+2024-08-10T05:29:08.913Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:29:08.914Z info: Client disconnected from long polling
+2024-08-10T05:29:08.917Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:29:08.917Z info: Client disconnected from long polling
+2024-08-10T05:29:08.922Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:29:08.922Z info: Client disconnected from long polling
+2024-08-10T05:29:08.924Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:29:08.924Z info: Client disconnected from long polling
+2024-08-10T05:29:08.932Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:29:08.932Z info: Client disconnected from long polling
+2024-08-10T05:29:08.933Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:29:08.933Z info: Client disconnected from long polling
+2024-08-10T05:29:11.382Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:29:11.383Z info: Client disconnected from long polling
+2024-08-10T05:29:13.976Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:29:13.976Z info: Client disconnected from long polling
+2024-08-10T05:29:13.987Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:29:13.988Z info: Client disconnected from long polling
+2024-08-10T05:29:24.201Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:29:24.202Z info: Client disconnected from long polling
+2024-08-10T05:29:24.210Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:29:24.210Z info: Client disconnected from long polling
+2024-08-10T05:29:24.214Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:29:24.214Z info: Client disconnected from long polling
+2024-08-10T05:29:24.233Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:29:24.233Z info: Client disconnected from long polling
+2024-08-10T05:29:24.240Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:29:24.241Z info: Client disconnected from long polling
+2024-08-10T05:29:24.243Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:29:24.243Z info: Client disconnected from long polling
+2024-08-10T05:29:24.250Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:29:24.250Z info: Client disconnected from long polling
+2024-08-10T05:29:24.251Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:29:24.251Z info: Client disconnected from long polling
+2024-08-10T05:29:24.258Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:29:24.258Z info: Client disconnected from long polling
+2024-08-10T05:29:24.261Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:29:24.261Z info: Client disconnected from long polling
+2024-08-10T05:29:24.267Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:29:24.267Z info: Client disconnected from long polling
+2024-08-10T05:29:24.269Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:29:24.269Z info: Client disconnected from long polling
+2024-08-10T05:29:24.274Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:29:24.275Z info: Client disconnected from long polling
+2024-08-10T05:29:24.279Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:29:24.279Z info: Client disconnected from long polling
+2024-08-10T05:29:30.015Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:29:30.015Z info: Client disconnected from long polling
+2024-08-10T05:29:30.016Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:29:30.016Z info: Client disconnected from long polling
+2024-08-10T05:29:30.022Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:29:30.022Z info: Client disconnected from long polling
+2024-08-10T05:29:30.023Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:29:30.023Z info: Client disconnected from long polling
+2024-08-10T05:29:30.029Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:29:30.029Z info: Client disconnected from long polling
+2024-08-10T05:29:30.031Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:29:30.031Z info: Client disconnected from long polling
+2024-08-10T05:29:30.035Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:29:30.036Z info: Client disconnected from long polling
+2024-08-10T05:29:30.037Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:29:30.037Z info: Client disconnected from long polling
+2024-08-10T05:29:30.042Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:29:30.042Z info: Client disconnected from long polling
+2024-08-10T05:29:35.067Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:29:35.067Z info: Client disconnected from long polling
+2024-08-10T05:29:35.072Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:29:35.073Z info: Client disconnected from long polling
+2024-08-10T05:29:35.104Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:29:35.104Z info: Client disconnected from long polling
+2024-08-10T05:29:44.295Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:29:44.295Z info: Client disconnected from long polling
+2024-08-10T05:29:44.297Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:29:44.297Z info: Client disconnected from long polling
+2024-08-10T05:29:44.309Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:29:44.310Z info: Client disconnected from long polling
+2024-08-10T05:29:44.311Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:29:44.311Z info: Client disconnected from long polling
+2024-08-10T05:29:44.317Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:29:44.317Z info: Client disconnected from long polling
+2024-08-10T05:29:44.319Z info: Client disconnected from long polling
+2024-08-10T05:29:44.318Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:29:44.323Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:29:44.324Z info: Client disconnected from long polling
+2024-08-10T05:29:44.326Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:29:44.326Z info: Client disconnected from long polling
+2024-08-10T05:29:44.333Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:29:44.333Z info: Client disconnected from long polling
+2024-08-10T05:29:44.334Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:29:44.334Z info: Client disconnected from long polling
+2024-08-10T05:29:44.338Z info: Client disconnected from long polling
+2024-08-10T05:29:44.338Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:29:50.777Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:29:50.777Z info: Client disconnected from long polling
+2024-08-10T05:29:50.778Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:29:50.779Z info: Client disconnected from long polling
+2024-08-10T05:29:50.785Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:29:50.785Z info: Client disconnected from long polling
+2024-08-10T05:29:50.787Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:29:50.787Z info: Client disconnected from long polling
+2024-08-10T05:29:50.793Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:29:50.794Z info: Client disconnected from long polling
+2024-08-10T05:29:50.795Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:29:50.795Z info: Client disconnected from long polling
+2024-08-10T05:29:50.800Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:29:50.800Z info: Client disconnected from long polling
+2024-08-10T05:29:50.801Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:29:50.801Z info: Client disconnected from long polling
+2024-08-10T05:29:50.807Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:29:50.808Z info: Client disconnected from long polling
+2024-08-10T05:29:50.809Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:29:50.809Z info: Client disconnected from long polling
+2024-08-10T05:29:50.812Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:29:50.813Z info: Client disconnected from long polling
+2024-08-10T05:29:50.818Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:29:50.819Z info: Client disconnected from long polling
+2024-08-10T05:29:57.350Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:29:57.350Z info: Client disconnected from long polling
+2024-08-10T05:29:57.355Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:29:57.355Z info: Client disconnected from long polling
+2024-08-10T05:29:57.359Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:29:57.359Z info: Client disconnected from long polling
+2024-08-10T05:29:57.364Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:29:57.365Z info: Client disconnected from long polling
+2024-08-10T05:29:57.392Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:29:57.393Z info: Client disconnected from long polling
+2024-08-10T05:30:11.782Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:30:11.784Z info: Client disconnected from long polling
+2024-08-10T05:30:12.100Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:30:12.100Z info: Client disconnected from long polling
+2024-08-10T05:30:12.243Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:30:12.244Z info: Client disconnected from long polling
+2024-08-10T05:30:13.107Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:30:13.108Z info: Client disconnected from long polling
+2024-08-10T05:30:13.517Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:30:13.518Z info: Client disconnected from long polling
+2024-08-10T05:30:14.839Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:30:14.839Z info: Client disconnected from long polling
+2024-08-10T05:30:15.342Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:30:15.343Z info: Client disconnected from long polling
+2024-08-10T05:30:17.323Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:30:17.324Z info: Client disconnected from long polling
+2024-08-10T05:30:18.186Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:30:18.187Z info: Client disconnected from long polling
+2024-08-10T05:30:18.231Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:30:18.231Z info: Client disconnected from long polling
+2024-08-10T05:30:18.233Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:30:18.233Z info: Client disconnected from long polling
+2024-08-10T05:30:19.757Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:30:19.757Z info: Client disconnected from long polling
+2024-08-10T05:30:19.771Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:30:19.771Z info: Client disconnected from long polling
+2024-08-10T05:30:19.773Z info: Client disconnected from long polling
+2024-08-10T05:30:19.772Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:30:21.271Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:30:21.271Z info: Client disconnected from long polling
+2024-08-10T05:30:23.141Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:30:23.141Z info: Client disconnected from long polling
+2024-08-10T05:30:23.142Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:30:23.143Z info: Client disconnected from long polling
+2024-08-10T05:30:23.150Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:30:23.151Z info: Client disconnected from long polling
+2024-08-10T05:30:25.409Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:30:25.410Z info: Client disconnected from long polling
+2024-08-10T05:30:25.412Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:30:25.413Z info: Client disconnected from long polling
+2024-08-10T05:30:25.423Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:30:25.424Z info: Client disconnected from long polling
+2024-08-10T05:30:32.860Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:30:32.861Z info: Client disconnected from long polling
+2024-08-10T05:30:38.166Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:30:38.166Z info: Client disconnected from long polling
+2024-08-10T05:30:38.172Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:30:38.172Z info: Client disconnected from long polling
+2024-08-10T05:30:38.588Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:30:38.589Z info: Client disconnected from long polling
+2024-08-10T05:30:38.595Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:30:38.596Z info: Client disconnected from long polling
+2024-08-10T05:30:38.621Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:30:38.622Z info: Client disconnected from long polling
+2024-08-10T05:30:38.633Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:30:38.633Z info: Client disconnected from long polling
+2024-08-10T05:30:38.634Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:30:38.635Z info: Client disconnected from long polling
+2024-08-10T05:30:38.650Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:30:38.650Z info: Client disconnected from long polling
+2024-08-10T05:30:44.675Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:30:44.675Z info: Client disconnected from long polling
+2024-08-10T05:30:45.161Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:30:45.162Z info: Client disconnected from long polling
+2024-08-10T05:30:45.163Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:30:45.163Z info: Client disconnected from long polling
+2024-08-10T05:30:45.167Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:30:45.168Z info: Client disconnected from long polling
+2024-08-10T05:30:52.470Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:30:52.470Z info: Client disconnected from long polling
+2024-08-10T05:31:01.175Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:31:01.175Z info: Client disconnected from long polling
+2024-08-10T05:31:01.177Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:31:01.177Z info: Client disconnected from long polling
+2024-08-10T05:31:01.185Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:31:01.186Z info: Client disconnected from long polling
+2024-08-10T05:31:01.186Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:31:01.187Z info: Client disconnected from long polling
+2024-08-10T05:31:01.193Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:31:01.194Z info: Client disconnected from long polling
+2024-08-10T05:31:01.199Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:31:01.199Z info: Client disconnected from long polling
+2024-08-10T05:31:09.712Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:31:09.713Z info: Client disconnected from long polling
+2024-08-10T05:31:09.713Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:31:09.714Z info: Client disconnected from long polling
+2024-08-10T05:31:09.720Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:31:09.720Z info: Client disconnected from long polling
+2024-08-10T05:31:09.721Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:31:09.722Z info: Client disconnected from long polling
+2024-08-10T05:31:09.729Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:31:09.729Z info: Client disconnected from long polling
+2024-08-10T05:31:09.731Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:31:09.731Z info: Client disconnected from long polling
+2024-08-10T05:31:09.736Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:31:09.736Z info: Client disconnected from long polling
+2024-08-10T05:31:09.738Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:31:09.739Z info: Client disconnected from long polling
+2024-08-10T05:31:21.287Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:31:21.287Z info: Client disconnected from long polling
+2024-08-10T05:31:34.680Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:31:34.680Z info: Client disconnected from long polling
+2024-08-10T05:31:34.682Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:31:34.682Z info: Client disconnected from long polling
+2024-08-10T05:31:34.689Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:31:34.689Z info: Client disconnected from long polling
+2024-08-10T05:31:34.691Z info: Client disconnected from long polling
+2024-08-10T05:31:34.691Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:31:34.701Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:31:34.701Z info: Client disconnected from long polling
+2024-08-10T05:31:34.702Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:31:34.702Z info: Client disconnected from long polling
+2024-08-10T05:31:37.802Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:31:37.802Z info: Client disconnected from long polling
+2024-08-10T05:31:45.774Z info: HTTP GET /api/logs
+2024-08-10T05:31:45.774Z info: Fetched logs: [{"id":18,"expression":"3+2","is_valid":true,"output":5,"created_on":"2024-08-10T05:18:17.000Z","createdAt":"2024-08-10T05:18:17.000Z","updatedAt":"2024-08-10T05:18:17.000Z"},{"id":17,"expression":"95+3","is_valid":true,"output":98,"created_on":"2024-08-10T05:17:38.000Z","createdAt":"2024-08-10T05:17:38.000Z","updatedAt":"2024-08-10T05:17:38.000Z"},{"id":16,"expression":"93+2","is_valid":true,"output":95,"created_on":"2024-08-10T05:17:36.000Z","createdAt":"2024-08-10T05:17:36.000Z","updatedAt":"2024-08-10T05:17:36.000Z"},{"id":15,"expression":"93","is_valid":true,"output":93,"created_on":"2024-08-10T05:17:33.000Z","createdAt":"2024-08-10T05:17:33.000Z","updatedAt":"2024-08-10T05:17:33.000Z"},{"id":14,"expression":"6+3","is_valid":true,"output":9,"created_on":"2024-08-10T05:17:29.000Z","createdAt":"2024-08-10T05:17:29.000Z","updatedAt":"2024-08-10T05:17:29.000Z"},{"id":13,"expression":"3+3","is_valid":true,"output":6,"created_on":"2024-08-10T05:17:24.000Z","createdAt":"2024-08-10T05:17:24.000Z","updatedAt":"2024-08-10T05:17:24.000Z"},{"id":9,"expression":"9-6","is_valid":true,"output":3,"created_on":"2024-08-10T05:08:57.000Z","createdAt":"2024-08-10T05:08:57.000Z","updatedAt":"2024-08-10T05:08:57.000Z"},{"id":10,"expression":"3+2","is_valid":true,"output":5,"created_on":"2024-08-10T05:08:57.000Z","createdAt":"2024-08-10T05:08:57.000Z","updatedAt":"2024-08-10T05:08:57.000Z"},{"id":11,"expression":"5+3","is_valid":true,"output":8,"created_on":"2024-08-10T05:08:57.000Z","createdAt":"2024-08-10T05:08:57.000Z","updatedAt":"2024-08-10T05:08:57.000Z"},{"id":12,"expression":"8+5","is_valid":true,"output":13,"created_on":"2024-08-10T05:08:57.000Z","createdAt":"2024-08-10T05:08:57.000Z","updatedAt":"2024-08-10T05:08:57.000Z"}]
+2024-08-10T05:31:45.785Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:31:45.786Z info: Client disconnected from long polling
+2024-08-10T05:31:45.795Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:31:45.795Z info: Client disconnected from long polling
+2024-08-10T05:31:45.798Z info: Client disconnected from long polling
+2024-08-10T05:31:45.798Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:31:45.809Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:31:45.810Z info: Client disconnected from long polling
+2024-08-10T05:31:45.811Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:31:45.811Z info: Client disconnected from long polling
+2024-08-10T05:31:45.817Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:31:45.817Z info: Client disconnected from long polling
+2024-08-10T05:31:45.819Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:31:45.819Z info: Client disconnected from long polling
+2024-08-10T05:31:45.828Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:31:45.828Z info: Client disconnected from long polling
+2024-08-10T05:31:45.829Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:31:45.829Z info: Client disconnected from long polling
+2024-08-10T05:31:48.679Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:31:48.679Z info: Client disconnected from long polling
+2024-08-10T05:31:50.777Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:31:50.777Z info: Client disconnected from long polling
+2024-08-10T05:31:50.779Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:31:50.780Z info: Client disconnected from long polling
+2024-08-10T05:31:50.784Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:31:50.785Z info: Client disconnected from long polling
+2024-08-10T05:31:50.786Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:31:50.786Z info: Client disconnected from long polling
+2024-08-10T05:31:50.791Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:31:50.791Z info: Client disconnected from long polling
+2024-08-10T05:31:50.793Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:31:50.793Z info: Client disconnected from long polling
+2024-08-10T05:31:50.799Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:31:50.799Z info: Client disconnected from long polling
+2024-08-10T05:31:50.808Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:31:50.808Z info: Client disconnected from long polling
+2024-08-10T05:31:50.819Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:31:50.819Z info: Client disconnected from long polling
+2024-08-10T05:31:50.823Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:31:50.823Z info: Client disconnected from long polling
+2024-08-10T05:31:50.831Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:31:50.832Z info: Client disconnected from long polling
+2024-08-10T05:31:50.834Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:31:50.834Z info: Client disconnected from long polling
+2024-08-10T05:31:50.842Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:31:50.842Z info: Client disconnected from long polling
+2024-08-10T05:31:50.844Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:31:50.844Z info: Client disconnected from long polling
+2024-08-10T05:31:50.849Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:31:50.850Z info: Client disconnected from long polling
+2024-08-10T05:31:50.851Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:31:50.851Z info: Client disconnected from long polling
+2024-08-10T05:31:51.795Z info: HTTP GET /api/logs
+2024-08-10T05:31:51.795Z info: Fetched logs: [{"id":18,"expression":"3+2","is_valid":true,"output":5,"created_on":"2024-08-10T05:18:17.000Z","createdAt":"2024-08-10T05:18:17.000Z","updatedAt":"2024-08-10T05:18:17.000Z"},{"id":17,"expression":"95+3","is_valid":true,"output":98,"created_on":"2024-08-10T05:17:38.000Z","createdAt":"2024-08-10T05:17:38.000Z","updatedAt":"2024-08-10T05:17:38.000Z"},{"id":16,"expression":"93+2","is_valid":true,"output":95,"created_on":"2024-08-10T05:17:36.000Z","createdAt":"2024-08-10T05:17:36.000Z","updatedAt":"2024-08-10T05:17:36.000Z"},{"id":15,"expression":"93","is_valid":true,"output":93,"created_on":"2024-08-10T05:17:33.000Z","createdAt":"2024-08-10T05:17:33.000Z","updatedAt":"2024-08-10T05:17:33.000Z"},{"id":14,"expression":"6+3","is_valid":true,"output":9,"created_on":"2024-08-10T05:17:29.000Z","createdAt":"2024-08-10T05:17:29.000Z","updatedAt":"2024-08-10T05:17:29.000Z"},{"id":13,"expression":"3+3","is_valid":true,"output":6,"created_on":"2024-08-10T05:17:24.000Z","createdAt":"2024-08-10T05:17:24.000Z","updatedAt":"2024-08-10T05:17:24.000Z"},{"id":9,"expression":"9-6","is_valid":true,"output":3,"created_on":"2024-08-10T05:08:57.000Z","createdAt":"2024-08-10T05:08:57.000Z","updatedAt":"2024-08-10T05:08:57.000Z"},{"id":10,"expression":"3+2","is_valid":true,"output":5,"created_on":"2024-08-10T05:08:57.000Z","createdAt":"2024-08-10T05:08:57.000Z","updatedAt":"2024-08-10T05:08:57.000Z"},{"id":11,"expression":"5+3","is_valid":true,"output":8,"created_on":"2024-08-10T05:08:57.000Z","createdAt":"2024-08-10T05:08:57.000Z","updatedAt":"2024-08-10T05:08:57.000Z"},{"id":12,"expression":"8+5","is_valid":true,"output":13,"created_on":"2024-08-10T05:08:57.000Z","createdAt":"2024-08-10T05:08:57.000Z","updatedAt":"2024-08-10T05:08:57.000Z"}]
+2024-08-10T05:31:53.447Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:31:53.448Z info: Client disconnected from long polling
+2024-08-10T05:31:53.591Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:31:53.592Z info: Client disconnected from long polling
+2024-08-10T05:31:56.898Z info: HTTP GET /api/logs
+2024-08-10T05:31:56.899Z info: Fetched logs: [{"id":18,"expression":"3+2","is_valid":true,"output":5,"created_on":"2024-08-10T05:18:17.000Z","createdAt":"2024-08-10T05:18:17.000Z","updatedAt":"2024-08-10T05:18:17.000Z"},{"id":17,"expression":"95+3","is_valid":true,"output":98,"created_on":"2024-08-10T05:17:38.000Z","createdAt":"2024-08-10T05:17:38.000Z","updatedAt":"2024-08-10T05:17:38.000Z"},{"id":16,"expression":"93+2","is_valid":true,"output":95,"created_on":"2024-08-10T05:17:36.000Z","createdAt":"2024-08-10T05:17:36.000Z","updatedAt":"2024-08-10T05:17:36.000Z"},{"id":15,"expression":"93","is_valid":true,"output":93,"created_on":"2024-08-10T05:17:33.000Z","createdAt":"2024-08-10T05:17:33.000Z","updatedAt":"2024-08-10T05:17:33.000Z"},{"id":14,"expression":"6+3","is_valid":true,"output":9,"created_on":"2024-08-10T05:17:29.000Z","createdAt":"2024-08-10T05:17:29.000Z","updatedAt":"2024-08-10T05:17:29.000Z"},{"id":13,"expression":"3+3","is_valid":true,"output":6,"created_on":"2024-08-10T05:17:24.000Z","createdAt":"2024-08-10T05:17:24.000Z","updatedAt":"2024-08-10T05:17:24.000Z"},{"id":9,"expression":"9-6","is_valid":true,"output":3,"created_on":"2024-08-10T05:08:57.000Z","createdAt":"2024-08-10T05:08:57.000Z","updatedAt":"2024-08-10T05:08:57.000Z"},{"id":10,"expression":"3+2","is_valid":true,"output":5,"created_on":"2024-08-10T05:08:57.000Z","createdAt":"2024-08-10T05:08:57.000Z","updatedAt":"2024-08-10T05:08:57.000Z"},{"id":11,"expression":"5+3","is_valid":true,"output":8,"created_on":"2024-08-10T05:08:57.000Z","createdAt":"2024-08-10T05:08:57.000Z","updatedAt":"2024-08-10T05:08:57.000Z"},{"id":12,"expression":"8+5","is_valid":true,"output":13,"created_on":"2024-08-10T05:08:57.000Z","createdAt":"2024-08-10T05:08:57.000Z","updatedAt":"2024-08-10T05:08:57.000Z"}]
+2024-08-10T05:32:11.574Z info: HTTP GET /api/logs
+2024-08-10T05:32:11.575Z info: Fetched logs: [{"id":18,"expression":"3+2","is_valid":true,"output":5,"created_on":"2024-08-10T05:18:17.000Z","createdAt":"2024-08-10T05:18:17.000Z","updatedAt":"2024-08-10T05:18:17.000Z"},{"id":17,"expression":"95+3","is_valid":true,"output":98,"created_on":"2024-08-10T05:17:38.000Z","createdAt":"2024-08-10T05:17:38.000Z","updatedAt":"2024-08-10T05:17:38.000Z"},{"id":16,"expression":"93+2","is_valid":true,"output":95,"created_on":"2024-08-10T05:17:36.000Z","createdAt":"2024-08-10T05:17:36.000Z","updatedAt":"2024-08-10T05:17:36.000Z"},{"id":15,"expression":"93","is_valid":true,"output":93,"created_on":"2024-08-10T05:17:33.000Z","createdAt":"2024-08-10T05:17:33.000Z","updatedAt":"2024-08-10T05:17:33.000Z"},{"id":14,"expression":"6+3","is_valid":true,"output":9,"created_on":"2024-08-10T05:17:29.000Z","createdAt":"2024-08-10T05:17:29.000Z","updatedAt":"2024-08-10T05:17:29.000Z"},{"id":13,"expression":"3+3","is_valid":true,"output":6,"created_on":"2024-08-10T05:17:24.000Z","createdAt":"2024-08-10T05:17:24.000Z","updatedAt":"2024-08-10T05:17:24.000Z"},{"id":9,"expression":"9-6","is_valid":true,"output":3,"created_on":"2024-08-10T05:08:57.000Z","createdAt":"2024-08-10T05:08:57.000Z","updatedAt":"2024-08-10T05:08:57.000Z"},{"id":10,"expression":"3+2","is_valid":true,"output":5,"created_on":"2024-08-10T05:08:57.000Z","createdAt":"2024-08-10T05:08:57.000Z","updatedAt":"2024-08-10T05:08:57.000Z"},{"id":11,"expression":"5+3","is_valid":true,"output":8,"created_on":"2024-08-10T05:08:57.000Z","createdAt":"2024-08-10T05:08:57.000Z","updatedAt":"2024-08-10T05:08:57.000Z"},{"id":12,"expression":"8+5","is_valid":true,"output":13,"created_on":"2024-08-10T05:08:57.000Z","createdAt":"2024-08-10T05:08:57.000Z","updatedAt":"2024-08-10T05:08:57.000Z"}]
+2024-08-10T05:32:22.899Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:32:22.900Z info: Client disconnected from long polling
+2024-08-10T05:32:22.982Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:32:22.982Z info: Client disconnected from long polling
+2024-08-10T05:32:28.003Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:32:28.004Z info: Client disconnected from long polling
+2024-08-10T05:32:33.000Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:32:33.000Z info: Client disconnected from long polling
+2024-08-10T05:32:37.992Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:32:37.993Z info: Client disconnected from long polling
+2024-08-10T05:32:42.991Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:32:42.992Z info: Client disconnected from long polling
+2024-08-10T05:32:48.840Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:32:48.840Z info: Client disconnected from long polling
+2024-08-10T05:32:53.842Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:32:53.843Z info: Client disconnected from long polling
+2024-08-10T05:32:58.836Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:32:58.837Z info: Client disconnected from long polling
+2024-08-10T05:33:03.839Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:33:03.839Z info: Client disconnected from long polling
+2024-08-10T05:33:08.850Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:33:08.851Z info: Client disconnected from long polling
+2024-08-10T05:33:51.288Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:33:51.288Z info: Client disconnected from long polling
+2024-08-10T05:33:57.560Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:33:57.560Z info: Client disconnected from long polling
+2024-08-10T05:34:13.258Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:34:13.258Z info: Client disconnected from long polling
+2024-08-10T05:34:14.098Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:34:14.098Z info: Client disconnected from long polling
+2024-08-10T05:34:14.167Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:34:14.167Z info: Client disconnected from long polling
+2024-08-10T05:34:19.708Z info: Server is running on port 5000
+2024-08-10T05:34:19.756Z info: Connected to MySQL and synchronized models
+2024-08-10T05:34:20.143Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:34:20.144Z info: Client disconnected from long polling
+2024-08-10T05:34:57.618Z info: Server is running on port 5000
+2024-08-10T05:34:57.658Z info: Connected to MySQL and synchronized models
+2024-08-10T05:35:00.151Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:35:00.152Z info: Client disconnected from long polling
+2024-08-10T05:35:04.169Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:35:04.170Z info: Client disconnected from long polling
+2024-08-10T05:35:04.811Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:35:04.812Z info: Client disconnected from long polling
+2024-08-10T05:35:04.937Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:35:04.938Z info: Client disconnected from long polling
+2024-08-10T05:35:09.940Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:35:09.941Z info: Client disconnected from long polling
+2024-08-10T05:35:14.937Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:35:14.937Z info: Client disconnected from long polling
+2024-08-10T05:35:19.955Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:35:19.956Z info: Client disconnected from long polling
+2024-08-10T05:35:25.150Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:35:25.150Z info: Client disconnected from long polling
+2024-08-10T05:35:30.153Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:35:30.153Z info: Client disconnected from long polling
+2024-08-10T05:35:35.152Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:35:35.153Z info: Client disconnected from long polling
+2024-08-10T05:35:40.141Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:35:40.141Z info: Client disconnected from long polling
+2024-08-10T05:35:44.612Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:35:44.613Z info: Client disconnected from long polling
+2024-08-10T05:35:46.662Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:35:46.663Z info: Client disconnected from long polling
+2024-08-10T05:35:47.173Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:35:47.174Z info: Client disconnected from long polling
+2024-08-10T05:35:48.824Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:35:48.824Z info: Client disconnected from long polling
+2024-08-10T05:35:50.081Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:35:50.082Z info: Client disconnected from long polling
+2024-08-10T05:36:00.182Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:36:00.182Z info: Client disconnected from long polling
+2024-08-10T05:36:00.343Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:36:00.343Z info: Client disconnected from long polling
+2024-08-10T05:36:00.430Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:36:00.430Z info: Client disconnected from long polling
+2024-08-10T05:36:01.022Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:36:01.022Z info: Client disconnected from long polling
+2024-08-10T05:36:01.238Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:36:01.238Z info: Client disconnected from long polling
+2024-08-10T05:36:01.519Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:36:01.520Z info: Client disconnected from long polling
+2024-08-10T05:36:01.806Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:36:01.806Z info: Client disconnected from long polling
+2024-08-10T05:36:02.954Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:36:02.955Z info: Client disconnected from long polling
+2024-08-10T05:36:03.130Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:36:03.130Z info: Client disconnected from long polling
+2024-08-10T05:36:03.230Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:36:03.230Z info: Client disconnected from long polling
+2024-08-10T05:36:03.461Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:36:03.461Z info: Client disconnected from long polling
+2024-08-10T05:36:03.788Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:36:03.789Z info: Client disconnected from long polling
+2024-08-10T05:36:04.168Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:36:04.169Z info: Client disconnected from long polling
+2024-08-10T05:36:04.319Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:36:04.320Z info: Client disconnected from long polling
+2024-08-10T05:36:04.358Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:36:04.358Z info: Client disconnected from long polling
+2024-08-10T05:36:04.624Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:36:04.625Z info: Client disconnected from long polling
+2024-08-10T05:36:04.687Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:36:04.688Z info: Client disconnected from long polling
+2024-08-10T05:36:05.220Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:36:05.221Z info: Client disconnected from long polling
+2024-08-10T05:36:05.367Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:36:05.367Z info: Client disconnected from long polling
+2024-08-10T05:36:05.665Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:36:05.665Z info: Client disconnected from long polling
+2024-08-10T05:36:05.792Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:36:05.792Z info: Client disconnected from long polling
+2024-08-10T05:36:06.209Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:36:06.209Z info: Client disconnected from long polling
+2024-08-10T05:36:06.483Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:36:06.483Z info: Client disconnected from long polling
+2024-08-10T05:36:07.134Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:36:07.135Z info: Client disconnected from long polling
+2024-08-10T05:36:07.298Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:36:07.299Z info: Client disconnected from long polling
+2024-08-10T05:36:08.228Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:36:08.229Z info: Client disconnected from long polling
+2024-08-10T05:36:08.829Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:36:08.830Z info: Client disconnected from long polling
+2024-08-10T05:36:10.699Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:36:10.699Z info: Client disconnected from long polling
+2024-08-10T05:36:11.697Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:36:11.698Z info: Client disconnected from long polling
+2024-08-10T05:36:11.699Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:36:11.700Z info: Client disconnected from long polling
+2024-08-10T05:36:11.708Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:36:11.708Z info: Client disconnected from long polling
+2024-08-10T05:36:11.710Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:36:11.710Z info: Client disconnected from long polling
+2024-08-10T05:36:11.716Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:36:11.716Z info: Client disconnected from long polling
+2024-08-10T05:36:11.719Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:36:11.720Z info: Client disconnected from long polling
+2024-08-10T05:36:11.723Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:36:11.723Z info: Client disconnected from long polling
+2024-08-10T05:36:11.727Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:36:11.727Z info: Client disconnected from long polling
+2024-08-10T05:36:12.046Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:36:12.046Z info: Client disconnected from long polling
+2024-08-10T05:36:12.048Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:36:12.048Z info: Client disconnected from long polling
+2024-08-10T05:36:12.054Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:36:12.055Z info: Client disconnected from long polling
+2024-08-10T05:36:13.553Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:36:13.553Z info: Client disconnected from long polling
+2024-08-10T05:36:15.774Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:36:15.774Z info: Client disconnected from long polling
+2024-08-10T05:36:15.777Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:36:15.777Z info: Client disconnected from long polling
+2024-08-10T05:36:15.781Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:36:15.781Z info: Client disconnected from long polling
+2024-08-10T05:36:15.939Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:36:15.940Z info: Client disconnected from long polling
+2024-08-10T05:36:17.571Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:36:17.571Z info: Client disconnected from long polling
+2024-08-10T05:36:17.572Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:36:17.572Z info: Client disconnected from long polling
+2024-08-10T05:36:17.607Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:36:17.607Z info: Client disconnected from long polling
+2024-08-10T05:36:17.608Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:36:17.609Z info: Client disconnected from long polling
+2024-08-10T05:36:17.613Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:36:17.614Z info: Client disconnected from long polling
+2024-08-10T05:36:17.615Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:36:17.615Z info: Client disconnected from long polling
+2024-08-10T05:36:17.620Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:36:17.620Z info: Client disconnected from long polling
+2024-08-10T05:36:19.563Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:36:19.563Z info: Client disconnected from long polling
+2024-08-10T05:36:21.517Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:36:21.517Z info: Client disconnected from long polling
+2024-08-10T05:36:23.243Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:36:23.243Z info: Client disconnected from long polling
+2024-08-10T05:36:23.250Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:36:23.250Z info: Client disconnected from long polling
+2024-08-10T05:36:23.251Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:36:23.252Z info: Client disconnected from long polling
+2024-08-10T05:36:23.257Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:36:23.257Z info: Client disconnected from long polling
+2024-08-10T05:36:23.258Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:36:23.259Z info: Client disconnected from long polling
+2024-08-10T05:36:23.263Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:36:23.263Z info: Client disconnected from long polling
+2024-08-10T05:36:23.265Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:36:23.265Z info: Client disconnected from long polling
+2024-08-10T05:36:23.269Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:36:23.269Z info: Client disconnected from long polling
+2024-08-10T05:36:26.347Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:36:26.347Z info: Client disconnected from long polling
+2024-08-10T05:36:26.608Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:36:26.608Z info: Client disconnected from long polling
+2024-08-10T05:36:31.617Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:36:31.617Z info: Client disconnected from long polling
+2024-08-10T05:36:36.680Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:36:36.680Z info: Client disconnected from long polling
+2024-08-10T05:36:41.615Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:36:41.615Z info: Client disconnected from long polling
+2024-08-10T05:36:47.160Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:36:47.161Z info: Client disconnected from long polling
+2024-08-10T05:36:52.156Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:36:52.156Z info: Client disconnected from long polling
+2024-08-10T05:36:57.149Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:36:57.150Z info: Client disconnected from long polling
+2024-08-10T05:37:02.144Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:37:02.144Z info: Client disconnected from long polling
+2024-08-10T05:37:07.155Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:37:07.155Z info: Client disconnected from long polling
+2024-08-10T05:37:12.156Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:37:12.156Z info: Client disconnected from long polling
+2024-08-10T05:37:17.150Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:37:17.151Z info: Client disconnected from long polling
+2024-08-10T05:37:22.152Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:37:22.152Z info: Client disconnected from long polling
+2024-08-10T05:37:27.151Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:37:27.151Z info: Client disconnected from long polling
+2024-08-10T05:37:33.038Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:37:33.039Z info: Client disconnected from long polling
+2024-08-10T05:37:36.691Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:37:36.691Z info: Client disconnected from long polling
+2024-08-10T05:37:39.718Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:37:39.718Z info: Client disconnected from long polling
+2024-08-10T05:37:44.110Z info: HTTP GET /api/logs
+2024-08-10T05:37:44.111Z info: Fetched logs: [{"id":18,"expression":"3+2","is_valid":true,"output":5,"created_on":"2024-08-10T05:18:17.000Z","createdAt":"2024-08-10T05:18:17.000Z","updatedAt":"2024-08-10T05:18:17.000Z"},{"id":17,"expression":"95+3","is_valid":true,"output":98,"created_on":"2024-08-10T05:17:38.000Z","createdAt":"2024-08-10T05:17:38.000Z","updatedAt":"2024-08-10T05:17:38.000Z"},{"id":16,"expression":"93+2","is_valid":true,"output":95,"created_on":"2024-08-10T05:17:36.000Z","createdAt":"2024-08-10T05:17:36.000Z","updatedAt":"2024-08-10T05:17:36.000Z"},{"id":15,"expression":"93","is_valid":true,"output":93,"created_on":"2024-08-10T05:17:33.000Z","createdAt":"2024-08-10T05:17:33.000Z","updatedAt":"2024-08-10T05:17:33.000Z"},{"id":14,"expression":"6+3","is_valid":true,"output":9,"created_on":"2024-08-10T05:17:29.000Z","createdAt":"2024-08-10T05:17:29.000Z","updatedAt":"2024-08-10T05:17:29.000Z"},{"id":13,"expression":"3+3","is_valid":true,"output":6,"created_on":"2024-08-10T05:17:24.000Z","createdAt":"2024-08-10T05:17:24.000Z","updatedAt":"2024-08-10T05:17:24.000Z"},{"id":9,"expression":"9-6","is_valid":true,"output":3,"created_on":"2024-08-10T05:08:57.000Z","createdAt":"2024-08-10T05:08:57.000Z","updatedAt":"2024-08-10T05:08:57.000Z"},{"id":10,"expression":"3+2","is_valid":true,"output":5,"created_on":"2024-08-10T05:08:57.000Z","createdAt":"2024-08-10T05:08:57.000Z","updatedAt":"2024-08-10T05:08:57.000Z"},{"id":11,"expression":"5+3","is_valid":true,"output":8,"created_on":"2024-08-10T05:08:57.000Z","createdAt":"2024-08-10T05:08:57.000Z","updatedAt":"2024-08-10T05:08:57.000Z"},{"id":12,"expression":"8+5","is_valid":true,"output":13,"created_on":"2024-08-10T05:08:57.000Z","createdAt":"2024-08-10T05:08:57.000Z","updatedAt":"2024-08-10T05:08:57.000Z"}]
+2024-08-10T05:37:45.508Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:37:45.508Z info: Client disconnected from long polling
+2024-08-10T05:37:45.596Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:37:45.596Z info: Client disconnected from long polling
+2024-08-10T05:37:50.555Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:37:50.556Z info: Client disconnected from long polling
+2024-08-10T05:37:55.556Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:37:55.556Z info: Client disconnected from long polling
+2024-08-10T05:37:58.935Z info: HTTP POST /api/logs
+2024-08-10T05:37:58.935Z info: Created log: {"created_on":"2024-08-10T05:37:58.923Z","id":19,"expression":"3+","is_valid":false,"output":null,"updatedAt":"2024-08-10T05:37:58.925Z","createdAt":"2024-08-10T05:37:58.925Z"}
+2024-08-10T05:38:00.967Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:38:00.967Z info: Client disconnected from long polling
+2024-08-10T05:38:00.969Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:38:00.969Z info: Client disconnected from long polling
+2024-08-10T05:38:01.303Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:38:01.303Z info: Client disconnected from long polling
+2024-08-10T05:38:04.576Z info: HTTP POST /api/logs
+2024-08-10T05:38:04.576Z info: Created log: {"created_on":"2024-08-10T05:38:04.569Z","id":20,"expression":"3+2","is_valid":true,"output":5,"updatedAt":"2024-08-10T05:38:04.569Z","createdAt":"2024-08-10T05:38:04.569Z"}
+2024-08-10T05:38:04.699Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:38:04.699Z info: Client disconnected from long polling
+2024-08-10T05:38:04.970Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:38:04.971Z info: Client disconnected from long polling
+2024-08-10T05:38:09.972Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:38:09.972Z info: Client disconnected from long polling
+2024-08-10T05:38:14.976Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:38:14.977Z info: Client disconnected from long polling
+2024-08-10T05:38:16.835Z info: HTTP POST /api/logs
+2024-08-10T05:38:16.835Z info: Created log: {"created_on":"2024-08-10T05:38:16.830Z","id":21,"expression":"56+3","is_valid":true,"output":59,"updatedAt":"2024-08-10T05:38:16.830Z","createdAt":"2024-08-10T05:38:16.830Z"}
+2024-08-10T05:38:17.022Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:38:17.022Z info: Client disconnected from long polling
+2024-08-10T05:38:17.421Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:38:17.421Z info: Client disconnected from long polling
+2024-08-10T05:38:22.435Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:38:22.435Z info: Client disconnected from long polling
+2024-08-10T05:38:24.537Z info: HTTP POST /api/logs
+2024-08-10T05:38:24.538Z info: Created log: {"created_on":"2024-08-10T05:38:24.529Z","id":22,"expression":"593+33","is_valid":true,"output":626,"updatedAt":"2024-08-10T05:38:24.529Z","createdAt":"2024-08-10T05:38:24.529Z"}
+2024-08-10T05:38:24.765Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:38:24.765Z info: Client disconnected from long polling
+2024-08-10T05:38:25.219Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:38:25.220Z info: Client disconnected from long polling
+2024-08-10T05:38:30.224Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:38:30.225Z info: Client disconnected from long polling
+2024-08-10T05:38:32.268Z info: HTTP POST /api/logs
+2024-08-10T05:38:32.268Z info: Created log: {"created_on":"2024-08-10T05:38:32.261Z","id":23,"expression":"626+4","is_valid":true,"output":630,"updatedAt":"2024-08-10T05:38:32.261Z","createdAt":"2024-08-10T05:38:32.261Z"}
+2024-08-10T05:38:32.546Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:38:32.546Z info: Client disconnected from long polling
+2024-08-10T05:38:33.075Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:38:33.075Z info: Client disconnected from long polling
+2024-08-10T05:38:38.080Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:38:38.080Z info: Client disconnected from long polling
+2024-08-10T05:38:43.080Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:38:43.081Z info: Client disconnected from long polling
+2024-08-10T05:38:50.702Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:38:50.702Z info: Client disconnected from long polling
+2024-08-10T05:38:53.146Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:38:53.147Z info: Client disconnected from long polling
+2024-08-10T05:38:58.148Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:38:58.148Z info: Client disconnected from long polling
+2024-08-10T05:39:03.160Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:39:03.160Z info: Client disconnected from long polling
+2024-08-10T05:39:10.869Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:39:10.869Z info: Client disconnected from long polling
+2024-08-10T05:47:03.355Z info: Server is running on port 5000
+2024-08-10T05:47:03.402Z info: Connected to MySQL and synchronized models
+2024-08-10T05:47:28.141Z info: Client disconnected from long polling
+2024-08-10T05:47:38.402Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:47:38.404Z info: Client disconnected from long polling
+2024-08-10T05:47:38.662Z info: HTTP POST /api/logs
+2024-08-10T05:47:38.663Z info: Created log: {"created_on":"2024-08-10T05:47:38.643Z","id":24,"expression":"+3","is_valid":true,"output":3,"updatedAt":"2024-08-10T05:47:38.644Z","createdAt":"2024-08-10T05:47:38.644Z"}
+2024-08-10T05:47:48.656Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:47:48.657Z info: Client disconnected from long polling
+2024-08-10T05:47:48.805Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:47:48.805Z info: Client disconnected from long polling
+2024-08-10T05:47:59.041Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:47:59.041Z info: Client disconnected from long polling
+2024-08-10T05:53:13.633Z info: HTTP POST /api/logs
+2024-08-10T05:53:13.633Z info: Created log: {"created_on":"2024-08-10T05:53:13.625Z","id":25,"expression":"+3","is_valid":false,"output":null,"updatedAt":"2024-08-10T05:53:13.625Z","createdAt":"2024-08-10T05:53:13.625Z"}
+2024-08-10T05:53:18.311Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:53:18.313Z info: Client disconnected from long polling
+2024-08-10T05:53:21.777Z info: HTTP POST /api/logs
+2024-08-10T05:53:21.777Z info: Created log: {"created_on":"2024-08-10T05:53:21.771Z","id":26,"expression":"3+3","is_valid":false,"output":null,"updatedAt":"2024-08-10T05:53:21.771Z","createdAt":"2024-08-10T05:53:21.771Z"}
+2024-08-10T05:53:28.570Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:53:28.571Z info: Client disconnected from long polling
+2024-08-10T05:53:33.398Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:53:33.400Z info: Client disconnected from long polling
+2024-08-10T05:53:38.871Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:53:38.872Z info: Client disconnected from long polling
+2024-08-10T05:53:39.340Z info: HTTP GET /api/logs/long-polling
+2024-08-10T05:53:39.341Z info: Client disconnected from long polling
+2024-08-10T05:53:56.843Z info: Server is running on port 5000
+2024-08-10T05:53:56.883Z info: Connected to MySQL and synchronized models
+2024-08-10T05:55:00.321Z info: Server is running on port 5000
+2024-08-10T05:55:00.361Z info: Connected to MySQL and synchronized models
+2024-08-10T05:55:03.239Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T05:55:11.984Z info: HTTP POST /api/logs
+2024-08-10T05:55:11.985Z info: Created log: {"created_on":"2024-08-10T05:55:11.967Z","id":27,"expression":"3+2","is_valid":true,"output":5,"updatedAt":"2024-08-10T05:55:11.968Z","createdAt":"2024-08-10T05:55:11.968Z"}
+2024-08-10T05:58:23.210Z info: Server is running on port 5000
+2024-08-10T05:58:23.258Z info: Connected to MySQL and synchronized models
+2024-08-10T06:02:28.169Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T06:37:16.353Z info: Server is running on port 5000
+2024-08-10T06:37:16.393Z info: Connected to MySQL and synchronized models
+2024-08-10T06:37:26.372Z info: HTTP POST /api/logs
+2024-08-10T06:37:26.373Z info: Created log: {"created_on":"2024-08-10T06:37:26.357Z","id":28,"expression":"9*5","is_valid":true,"output":45,"updatedAt":"2024-08-10T06:37:26.358Z","createdAt":"2024-08-10T06:37:26.358Z"}
+2024-08-10T06:37:30.085Z info: HTTP POST /api/logs
+2024-08-10T06:37:30.086Z info: Created log: {"created_on":"2024-08-10T06:37:30.077Z","id":29,"expression":"45+3","is_valid":true,"output":48,"updatedAt":"2024-08-10T06:37:30.077Z","createdAt":"2024-08-10T06:37:30.077Z"}
+2024-08-10T06:37:32.646Z info: HTTP POST /api/logs
+2024-08-10T06:37:32.647Z info: Created log: {"created_on":"2024-08-10T06:37:32.641Z","id":30,"expression":"48+3","is_valid":true,"output":51,"updatedAt":"2024-08-10T06:37:32.641Z","createdAt":"2024-08-10T06:37:32.641Z"}
+2024-08-10T06:37:32.863Z info: HTTP POST /api/logs
+2024-08-10T06:37:32.863Z info: Created log: {"created_on":"2024-08-10T06:37:32.856Z","id":31,"expression":"51","is_valid":true,"output":51,"updatedAt":"2024-08-10T06:37:32.856Z","createdAt":"2024-08-10T06:37:32.856Z"}
+2024-08-10T06:37:35.596Z info: HTTP POST /api/logs
+2024-08-10T06:37:35.596Z info: Created log: {"created_on":"2024-08-10T06:37:35.590Z","id":32,"expression":"51+2","is_valid":true,"output":53,"updatedAt":"2024-08-10T06:37:35.591Z","createdAt":"2024-08-10T06:37:35.591Z"}
+2024-08-10T06:37:35.618Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T06:37:35.618Z info: Client disconnected from long polling
+2024-08-10T06:37:44.111Z info: HTTP POST /api/logs
+2024-08-10T06:37:44.111Z info: Created log: {"created_on":"2024-08-10T06:37:44.105Z","id":33,"expression":"53+3","is_valid":true,"output":56,"updatedAt":"2024-08-10T06:37:44.105Z","createdAt":"2024-08-10T06:37:44.105Z"}
+2024-08-10T06:37:45.650Z info: HTTP GET /api/logs/long-polling?lastId=32
+2024-08-10T06:37:45.651Z info: Client disconnected from long polling
+2024-08-10T06:37:48.755Z info: HTTP POST /api/logs
+2024-08-10T06:37:48.756Z info: Created log: {"created_on":"2024-08-10T06:37:48.750Z","id":34,"expression":"56+2","is_valid":true,"output":58,"updatedAt":"2024-08-10T06:37:48.750Z","createdAt":"2024-08-10T06:37:48.750Z"}
+2024-08-10T06:37:52.023Z info: HTTP POST /api/logs
+2024-08-10T06:37:52.024Z info: Created log: {"created_on":"2024-08-10T06:37:52.018Z","id":35,"expression":"58+2","is_valid":true,"output":60,"updatedAt":"2024-08-10T06:37:52.018Z","createdAt":"2024-08-10T06:37:52.018Z"}
+2024-08-10T06:37:54.823Z info: HTTP POST /api/logs
+2024-08-10T06:37:54.823Z info: Created log: {"created_on":"2024-08-10T06:37:54.816Z","id":36,"expression":"60+1","is_valid":true,"output":61,"updatedAt":"2024-08-10T06:37:54.816Z","createdAt":"2024-08-10T06:37:54.816Z"}
+2024-08-10T06:37:59.305Z info: HTTP POST /api/logs
+2024-08-10T06:37:59.306Z info: Created log: {"created_on":"2024-08-10T06:37:59.300Z","id":37,"expression":"61+3","is_valid":true,"output":64,"updatedAt":"2024-08-10T06:37:59.300Z","createdAt":"2024-08-10T06:37:59.300Z"}
+2024-08-10T06:37:59.315Z info: HTTP GET /api/logs/long-polling?lastId=33
+2024-08-10T06:37:59.316Z info: Client disconnected from long polling
+2024-08-10T06:38:32.431Z info: Server is running on port 5000
+2024-08-10T06:38:32.478Z info: Connected to MySQL and synchronized models
+2024-08-10T06:38:40.016Z info: HTTP POST /api/logs
+2024-08-10T06:38:40.017Z info: Created log: {"created_on":"2024-08-10T06:38:40.002Z","id":38,"expression":"33","is_valid":true,"output":33,"updatedAt":"2024-08-10T06:38:40.002Z","createdAt":"2024-08-10T06:38:40.002Z"}
+2024-08-10T06:38:42.503Z info: HTTP POST /api/logs
+2024-08-10T06:38:42.503Z info: Created log: {"created_on":"2024-08-10T06:38:42.496Z","id":39,"expression":"33+2","is_valid":true,"output":35,"updatedAt":"2024-08-10T06:38:42.496Z","createdAt":"2024-08-10T06:38:42.496Z"}
+2024-08-10T06:38:44.771Z info: HTTP POST /api/logs
+2024-08-10T06:38:44.772Z info: Created log: {"created_on":"2024-08-10T06:38:44.763Z","id":40,"expression":"35+6","is_valid":true,"output":41,"updatedAt":"2024-08-10T06:38:44.764Z","createdAt":"2024-08-10T06:38:44.764Z"}
+2024-08-10T06:38:47.974Z info: HTTP POST /api/logs
+2024-08-10T06:38:47.975Z info: Created log: {"created_on":"2024-08-10T06:38:47.964Z","id":41,"expression":"41+1","is_valid":true,"output":42,"updatedAt":"2024-08-10T06:38:47.964Z","createdAt":"2024-08-10T06:38:47.964Z"}
+2024-08-10T06:38:53.736Z info: HTTP POST /api/logs
+2024-08-10T06:38:53.737Z info: Created log: {"created_on":"2024-08-10T06:38:53.730Z","id":42,"expression":"42+3+3","is_valid":true,"output":48,"updatedAt":"2024-08-10T06:38:53.731Z","createdAt":"2024-08-10T06:38:53.731Z"}
+2024-08-10T06:38:53.757Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T06:38:53.757Z info: Client disconnected from long polling
+2024-08-10T06:38:53.767Z info: HTTP GET /api/logs/long-polling?lastId=1
+2024-08-10T06:38:53.767Z info: Client disconnected from long polling
+2024-08-10T06:38:53.785Z info: HTTP GET /api/logs/long-polling?lastId=2
+2024-08-10T06:38:53.785Z info: Client disconnected from long polling
+2024-08-10T06:38:53.797Z info: HTTP GET /api/logs/long-polling?lastId=3
+2024-08-10T06:38:53.798Z info: Client disconnected from long polling
+2024-08-10T06:38:53.809Z info: HTTP GET /api/logs/long-polling?lastId=4
+2024-08-10T06:38:53.809Z info: Client disconnected from long polling
+2024-08-10T06:38:53.822Z info: HTTP GET /api/logs/long-polling?lastId=5
+2024-08-10T06:38:53.823Z info: Client disconnected from long polling
+2024-08-10T06:38:53.837Z info: HTTP GET /api/logs/long-polling?lastId=6
+2024-08-10T06:38:53.837Z info: Client disconnected from long polling
+2024-08-10T06:38:53.849Z info: HTTP GET /api/logs/long-polling?lastId=7
+2024-08-10T06:38:53.850Z info: Client disconnected from long polling
+2024-08-10T06:38:53.864Z info: HTTP GET /api/logs/long-polling?lastId=8
+2024-08-10T06:38:53.865Z info: Client disconnected from long polling
+2024-08-10T06:38:53.881Z info: HTTP GET /api/logs/long-polling?lastId=9
+2024-08-10T06:38:53.881Z info: Client disconnected from long polling
+2024-08-10T06:38:53.896Z info: HTTP GET /api/logs/long-polling?lastId=10
+2024-08-10T06:38:53.896Z info: Client disconnected from long polling
+2024-08-10T06:38:53.913Z info: HTTP GET /api/logs/long-polling?lastId=11
+2024-08-10T06:38:53.913Z info: Client disconnected from long polling
+2024-08-10T06:38:53.950Z info: HTTP GET /api/logs/long-polling?lastId=12
+2024-08-10T06:38:53.950Z info: Client disconnected from long polling
+2024-08-10T06:38:53.966Z info: HTTP GET /api/logs/long-polling?lastId=13
+2024-08-10T06:38:53.966Z info: Client disconnected from long polling
+2024-08-10T06:38:53.984Z info: HTTP GET /api/logs/long-polling?lastId=14
+2024-08-10T06:38:53.984Z info: Client disconnected from long polling
+2024-08-10T06:38:54.004Z info: HTTP GET /api/logs/long-polling?lastId=15
+2024-08-10T06:38:54.004Z info: Client disconnected from long polling
+2024-08-10T06:38:54.026Z info: HTTP GET /api/logs/long-polling?lastId=16
+2024-08-10T06:38:54.026Z info: Client disconnected from long polling
+2024-08-10T06:38:54.046Z info: HTTP GET /api/logs/long-polling?lastId=17
+2024-08-10T06:38:54.046Z info: Client disconnected from long polling
+2024-08-10T06:38:54.068Z info: HTTP GET /api/logs/long-polling?lastId=18
+2024-08-10T06:38:54.069Z info: Client disconnected from long polling
+2024-08-10T06:38:54.090Z info: HTTP GET /api/logs/long-polling?lastId=19
+2024-08-10T06:38:54.090Z info: Client disconnected from long polling
+2024-08-10T06:38:54.109Z info: HTTP GET /api/logs/long-polling?lastId=20
+2024-08-10T06:38:54.109Z info: Client disconnected from long polling
+2024-08-10T06:38:54.133Z info: HTTP GET /api/logs/long-polling?lastId=21
+2024-08-10T06:38:54.133Z info: Client disconnected from long polling
+2024-08-10T06:38:54.157Z info: HTTP GET /api/logs/long-polling?lastId=22
+2024-08-10T06:38:54.157Z info: Client disconnected from long polling
+2024-08-10T06:38:54.182Z info: HTTP GET /api/logs/long-polling?lastId=23
+2024-08-10T06:38:54.183Z info: Client disconnected from long polling
+2024-08-10T06:38:54.208Z info: HTTP GET /api/logs/long-polling?lastId=24
+2024-08-10T06:38:54.209Z info: Client disconnected from long polling
+2024-08-10T06:38:54.233Z info: HTTP GET /api/logs/long-polling?lastId=25
+2024-08-10T06:38:54.233Z info: Client disconnected from long polling
+2024-08-10T06:38:54.261Z info: HTTP GET /api/logs/long-polling?lastId=26
+2024-08-10T06:38:54.261Z info: Client disconnected from long polling
+2024-08-10T06:38:54.307Z info: HTTP GET /api/logs/long-polling?lastId=27
+2024-08-10T06:38:54.307Z info: Client disconnected from long polling
+2024-08-10T06:38:54.336Z info: HTTP GET /api/logs/long-polling?lastId=28
+2024-08-10T06:38:54.337Z info: Client disconnected from long polling
+2024-08-10T06:38:54.362Z info: HTTP GET /api/logs/long-polling?lastId=29
+2024-08-10T06:38:54.363Z info: Client disconnected from long polling
+2024-08-10T06:38:54.391Z info: HTTP GET /api/logs/long-polling?lastId=30
+2024-08-10T06:38:54.391Z info: Client disconnected from long polling
+2024-08-10T06:38:54.418Z info: HTTP GET /api/logs/long-polling?lastId=31
+2024-08-10T06:38:54.418Z info: Client disconnected from long polling
+2024-08-10T06:38:54.447Z info: HTTP GET /api/logs/long-polling?lastId=32
+2024-08-10T06:38:54.448Z info: Client disconnected from long polling
+2024-08-10T06:38:54.475Z info: HTTP GET /api/logs/long-polling?lastId=33
+2024-08-10T06:38:54.475Z info: Client disconnected from long polling
+2024-08-10T06:38:54.505Z info: HTTP GET /api/logs/long-polling?lastId=34
+2024-08-10T06:38:54.506Z info: Client disconnected from long polling
+2024-08-10T06:38:54.533Z info: HTTP GET /api/logs/long-polling?lastId=35
+2024-08-10T06:38:54.533Z info: Client disconnected from long polling
+2024-08-10T06:38:54.563Z info: HTTP GET /api/logs/long-polling?lastId=36
+2024-08-10T06:38:54.563Z info: Client disconnected from long polling
+2024-08-10T06:38:54.592Z info: HTTP GET /api/logs/long-polling?lastId=37
+2024-08-10T06:38:54.592Z info: Client disconnected from long polling
+2024-08-10T06:38:54.617Z info: HTTP GET /api/logs/long-polling?lastId=38
+2024-08-10T06:38:54.618Z info: Client disconnected from long polling
+2024-08-10T06:38:54.647Z info: HTTP GET /api/logs/long-polling?lastId=39
+2024-08-10T06:38:54.647Z info: Client disconnected from long polling
+2024-08-10T06:38:54.671Z info: HTTP GET /api/logs/long-polling?lastId=40
+2024-08-10T06:38:54.672Z info: Client disconnected from long polling
+2024-08-10T06:38:54.696Z info: HTTP GET /api/logs/long-polling?lastId=41
+2024-08-10T06:38:54.696Z info: Client disconnected from long polling
+2024-08-10T06:40:33.521Z info: Server is running on port 5000
+2024-08-10T06:40:33.571Z info: Connected to MySQL and synchronized models
+2024-08-10T06:40:40.807Z info: HTTP POST /api/logs
+2024-08-10T06:40:40.807Z info: Created log: {"created_on":"2024-08-10T06:40:40.790Z","id":43,"expression":"3+2","is_valid":true,"output":5,"updatedAt":"2024-08-10T06:40:40.792Z","createdAt":"2024-08-10T06:40:40.792Z"}
+2024-08-10T06:40:43.611Z info: HTTP POST /api/logs
+2024-08-10T06:40:43.612Z info: Created log: {"created_on":"2024-08-10T06:40:43.604Z","id":44,"expression":"53","is_valid":true,"output":53,"updatedAt":"2024-08-10T06:40:43.604Z","createdAt":"2024-08-10T06:40:43.604Z"}
+2024-08-10T06:40:47.693Z info: HTTP POST /api/logs
+2024-08-10T06:40:47.694Z info: Created log: {"created_on":"2024-08-10T06:40:47.686Z","id":45,"expression":"53+3","is_valid":true,"output":56,"updatedAt":"2024-08-10T06:40:47.686Z","createdAt":"2024-08-10T06:40:47.686Z"}
+2024-08-10T06:40:51.108Z info: HTTP POST /api/logs
+2024-08-10T06:40:51.109Z info: Created log: {"created_on":"2024-08-10T06:40:51.103Z","id":46,"expression":"56+2","is_valid":true,"output":58,"updatedAt":"2024-08-10T06:40:51.103Z","createdAt":"2024-08-10T06:40:51.103Z"}
+2024-08-10T06:40:53.807Z info: HTTP POST /api/logs
+2024-08-10T06:40:53.808Z info: Created log: {"created_on":"2024-08-10T06:40:53.800Z","id":47,"expression":"58+5","is_valid":true,"output":63,"updatedAt":"2024-08-10T06:40:53.800Z","createdAt":"2024-08-10T06:40:53.800Z"}
+2024-08-10T06:40:53.823Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T06:40:53.823Z info: Client disconnected from long polling
+2024-08-10T06:40:53.837Z info: HTTP GET /api/logs/long-polling?lastId=5
+2024-08-10T06:40:53.838Z info: Client disconnected from long polling
+2024-08-10T06:40:53.848Z info: HTTP GET /api/logs/long-polling?lastId=10
+2024-08-10T06:40:53.849Z info: Client disconnected from long polling
+2024-08-10T06:40:53.859Z info: HTTP GET /api/logs/long-polling?lastId=15
+2024-08-10T06:40:53.861Z info: Client disconnected from long polling
+2024-08-10T06:40:53.870Z info: HTTP GET /api/logs/long-polling?lastId=20
+2024-08-10T06:40:53.870Z info: Client disconnected from long polling
+2024-08-10T06:40:53.880Z info: HTTP GET /api/logs/long-polling?lastId=25
+2024-08-10T06:40:53.881Z info: Client disconnected from long polling
+2024-08-10T06:40:53.891Z info: HTTP GET /api/logs/long-polling?lastId=30
+2024-08-10T06:40:53.891Z info: Client disconnected from long polling
+2024-08-10T06:40:53.903Z info: HTTP GET /api/logs/long-polling?lastId=35
+2024-08-10T06:40:53.903Z info: Client disconnected from long polling
+2024-08-10T06:40:53.914Z info: HTTP GET /api/logs/long-polling?lastId=40
+2024-08-10T06:40:53.915Z info: Client disconnected from long polling
+2024-08-10T06:40:53.927Z info: HTTP GET /api/logs/long-polling?lastId=45
+2024-08-10T06:40:53.927Z info: Client disconnected from long polling
+2024-08-10T06:42:11.913Z info: Server is running on port 5000
+2024-08-10T06:42:11.958Z info: Connected to MySQL and synchronized models
+2024-08-10T06:42:32.619Z info: Client disconnected from long polling
+2024-08-10T06:42:36.950Z info: HTTP POST /api/logs
+2024-08-10T06:42:36.951Z info: Created log: {"created_on":"2024-08-10T06:42:36.932Z","id":48,"expression":"3+3","is_valid":true,"output":6,"updatedAt":"2024-08-10T06:42:36.932Z","createdAt":"2024-08-10T06:42:36.932Z"}
+2024-08-10T06:42:39.229Z info: HTTP GET /api/logs/long-polling?lastId=47
+2024-08-10T06:42:39.441Z info: HTTP POST /api/logs
+2024-08-10T06:42:39.441Z info: Created log: {"created_on":"2024-08-10T06:42:39.433Z","id":49,"expression":"6+2","is_valid":true,"output":8,"updatedAt":"2024-08-10T06:42:39.433Z","createdAt":"2024-08-10T06:42:39.433Z"}
+2024-08-10T06:42:41.644Z info: HTTP POST /api/logs
+2024-08-10T06:42:41.644Z info: Created log: {"created_on":"2024-08-10T06:42:41.637Z","id":50,"expression":"8+3","is_valid":true,"output":11,"updatedAt":"2024-08-10T06:42:41.637Z","createdAt":"2024-08-10T06:42:41.637Z"}
+2024-08-10T06:42:44.690Z info: HTTP POST /api/logs
+2024-08-10T06:42:44.690Z info: Created log: {"created_on":"2024-08-10T06:42:44.683Z","id":51,"expression":"11+6","is_valid":true,"output":17,"updatedAt":"2024-08-10T06:42:44.683Z","createdAt":"2024-08-10T06:42:44.683Z"}
+2024-08-10T06:42:50.268Z info: HTTP POST /api/logs
+2024-08-10T06:42:50.269Z info: Created log: {"created_on":"2024-08-10T06:42:50.261Z","id":52,"expression":"17+2","is_valid":true,"output":19,"updatedAt":"2024-08-10T06:42:50.261Z","createdAt":"2024-08-10T06:42:50.261Z"}
+2024-08-10T06:42:50.281Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T06:42:50.281Z info: Client disconnected from long polling
+2024-08-10T06:42:50.293Z info: HTTP GET /api/logs/long-polling?lastId=5
+2024-08-10T06:42:50.293Z info: Client disconnected from long polling
+2024-08-10T06:42:50.309Z info: HTTP GET /api/logs/long-polling?lastId=10
+2024-08-10T06:42:50.310Z info: Client disconnected from long polling
+2024-08-10T06:42:50.321Z info: HTTP GET /api/logs/long-polling?lastId=15
+2024-08-10T06:42:50.322Z info: Client disconnected from long polling
+2024-08-10T06:42:50.332Z info: HTTP GET /api/logs/long-polling?lastId=20
+2024-08-10T06:42:50.332Z info: Client disconnected from long polling
+2024-08-10T06:42:50.343Z info: HTTP GET /api/logs/long-polling?lastId=25
+2024-08-10T06:42:50.343Z info: Client disconnected from long polling
+2024-08-10T06:42:50.353Z info: HTTP GET /api/logs/long-polling?lastId=30
+2024-08-10T06:42:50.354Z info: Client disconnected from long polling
+2024-08-10T06:42:50.364Z info: HTTP GET /api/logs/long-polling?lastId=35
+2024-08-10T06:42:50.365Z info: Client disconnected from long polling
+2024-08-10T06:42:50.376Z info: HTTP GET /api/logs/long-polling?lastId=40
+2024-08-10T06:42:50.376Z info: Client disconnected from long polling
+2024-08-10T06:42:50.384Z info: HTTP GET /api/logs/long-polling?lastId=45
+2024-08-10T06:42:50.384Z info: Client disconnected from long polling
+2024-08-10T06:42:50.393Z info: HTTP GET /api/logs/long-polling?lastId=50
+2024-08-10T06:42:50.393Z info: Client disconnected from long polling
+2024-08-10T06:43:08.778Z info: HTTP POST /api/logs
+2024-08-10T06:43:08.779Z info: Created log: {"created_on":"2024-08-10T06:43:08.773Z","id":53,"expression":"193","is_valid":true,"output":193,"updatedAt":"2024-08-10T06:43:08.773Z","createdAt":"2024-08-10T06:43:08.773Z"}
+2024-08-10T06:43:10.445Z info: HTTP GET /api/logs/long-polling?lastId=52
+2024-08-10T06:43:10.448Z info: Client disconnected from long polling
+2024-08-10T06:43:18.397Z info: HTTP POST /api/logs
+2024-08-10T06:43:18.397Z info: Created log: {"created_on":"2024-08-10T06:43:18.391Z","id":54,"expression":"193+3","is_valid":true,"output":196,"updatedAt":"2024-08-10T06:43:18.391Z","createdAt":"2024-08-10T06:43:18.391Z"}
+2024-08-10T06:43:20.844Z info: HTTP POST /api/logs
+2024-08-10T06:43:20.845Z info: Created log: {"created_on":"2024-08-10T06:43:20.839Z","id":55,"expression":"196+2","is_valid":true,"output":198,"updatedAt":"2024-08-10T06:43:20.839Z","createdAt":"2024-08-10T06:43:20.839Z"}
+2024-08-10T06:43:23.680Z info: HTTP POST /api/logs
+2024-08-10T06:43:23.680Z info: Created log: {"created_on":"2024-08-10T06:43:23.671Z","id":56,"expression":"198+1","is_valid":true,"output":199,"updatedAt":"2024-08-10T06:43:23.671Z","createdAt":"2024-08-10T06:43:23.671Z"}
+2024-08-10T06:43:26.524Z info: HTTP POST /api/logs
+2024-08-10T06:43:26.525Z info: Created log: {"created_on":"2024-08-10T06:43:26.518Z","id":57,"expression":"199+2","is_valid":true,"output":201,"updatedAt":"2024-08-10T06:43:26.518Z","createdAt":"2024-08-10T06:43:26.518Z"}
+2024-08-10T06:43:26.534Z info: HTTP GET /api/logs/long-polling?lastId=53
+2024-08-10T06:43:26.534Z info: Client disconnected from long polling
+2024-08-10T06:43:29.667Z info: HTTP POST /api/logs
+2024-08-10T06:43:29.667Z info: Created log: {"created_on":"2024-08-10T06:43:29.654Z","id":58,"expression":"201+2","is_valid":true,"output":203,"updatedAt":"2024-08-10T06:43:29.654Z","createdAt":"2024-08-10T06:43:29.654Z"}
+2024-08-10T06:43:31.560Z info: HTTP GET /api/logs/long-polling?lastId=57
+2024-08-10T06:43:31.560Z info: Client disconnected from long polling
+2024-08-10T06:48:51.138Z info: Server is running on port 5000
+2024-08-10T06:48:51.178Z info: Connected to MySQL and synchronized models
+2024-08-10T06:49:10.635Z info: HTTP POST /api/logs
+2024-08-10T06:49:10.635Z info: Created log: {"created_on":"2024-08-10T06:49:10.609Z","id":59,"expression":"9*6","is_valid":true,"output":54,"updatedAt":"2024-08-10T06:49:10.610Z","createdAt":"2024-08-10T06:49:10.610Z"}
+2024-08-10T06:49:13.160Z info: HTTP POST /api/logs
+2024-08-10T06:49:13.161Z info: Created log: {"created_on":"2024-08-10T06:49:13.153Z","id":60,"expression":"54+3","is_valid":true,"output":57,"updatedAt":"2024-08-10T06:49:13.153Z","createdAt":"2024-08-10T06:49:13.153Z"}
+2024-08-10T06:49:15.880Z info: HTTP POST /api/logs
+2024-08-10T06:49:15.880Z info: Created log: {"created_on":"2024-08-10T06:49:15.874Z","id":61,"expression":"57+2","is_valid":true,"output":59,"updatedAt":"2024-08-10T06:49:15.874Z","createdAt":"2024-08-10T06:49:15.874Z"}
+2024-08-10T06:49:18.257Z info: HTTP POST /api/logs
+2024-08-10T06:49:18.258Z info: Created log: {"created_on":"2024-08-10T06:49:18.251Z","id":62,"expression":"59+3","is_valid":true,"output":62,"updatedAt":"2024-08-10T06:49:18.251Z","createdAt":"2024-08-10T06:49:18.251Z"}
+2024-08-10T06:49:21.159Z info: HTTP POST /api/logs
+2024-08-10T06:49:21.160Z info: Created log: {"created_on":"2024-08-10T06:49:21.152Z","id":63,"expression":"62+2","is_valid":true,"output":64,"updatedAt":"2024-08-10T06:49:21.152Z","createdAt":"2024-08-10T06:49:21.152Z"}
+2024-08-10T06:49:21.177Z info: HTTP GET /api/logs/long-polling
+2024-08-10T06:49:21.177Z info: Client disconnected from long polling
+2024-08-10T06:49:26.322Z info: HTTP POST /api/logs
+2024-08-10T06:49:26.323Z info: Created log: {"created_on":"2024-08-10T06:49:26.316Z","id":64,"expression":"64+3","is_valid":true,"output":67,"updatedAt":"2024-08-10T06:49:26.316Z","createdAt":"2024-08-10T06:49:26.316Z"}
+2024-08-10T06:49:29.138Z info: HTTP POST /api/logs
+2024-08-10T06:49:29.138Z info: Created log: {"created_on":"2024-08-10T06:49:29.131Z","id":65,"expression":"67+2","is_valid":true,"output":69,"updatedAt":"2024-08-10T06:49:29.131Z","createdAt":"2024-08-10T06:49:29.131Z"}
+2024-08-10T06:49:31.487Z info: HTTP POST /api/logs
+2024-08-10T06:49:31.488Z info: Created log: {"created_on":"2024-08-10T06:49:31.477Z","id":66,"expression":"69+3","is_valid":true,"output":72,"updatedAt":"2024-08-10T06:49:31.478Z","createdAt":"2024-08-10T06:49:31.478Z"}
+2024-08-10T06:49:34.852Z info: HTTP POST /api/logs
+2024-08-10T06:49:34.852Z info: Created log: {"created_on":"2024-08-10T06:49:34.844Z","id":67,"expression":"72+6","is_valid":true,"output":78,"updatedAt":"2024-08-10T06:49:34.844Z","createdAt":"2024-08-10T06:49:34.844Z"}
+2024-08-10T06:49:37.218Z info: HTTP POST /api/logs
+2024-08-10T06:49:37.218Z info: Created log: {"created_on":"2024-08-10T06:49:37.212Z","id":68,"expression":"78+2","is_valid":true,"output":80,"updatedAt":"2024-08-10T06:49:37.212Z","createdAt":"2024-08-10T06:49:37.212Z"}
+2024-08-10T06:49:37.229Z info: Client disconnected from long polling
+2024-08-10T06:49:37.229Z info: HTTP GET /api/logs/long-polling
+2024-08-10T06:49:46.167Z info: HTTP POST /api/logs
+2024-08-10T06:49:46.167Z info: Created log: {"created_on":"2024-08-10T06:49:46.161Z","id":69,"expression":"80","is_valid":true,"output":80,"updatedAt":"2024-08-10T06:49:46.161Z","createdAt":"2024-08-10T06:49:46.161Z"}
+2024-08-10T06:50:35.057Z info: HTTP POST /api/logs
+2024-08-10T06:50:35.057Z info: Created log: {"created_on":"2024-08-10T06:50:35.047Z","id":70,"expression":"13+2","is_valid":true,"output":15,"updatedAt":"2024-08-10T06:50:35.047Z","createdAt":"2024-08-10T06:50:35.047Z"}
+2024-08-10T06:50:37.783Z info: HTTP POST /api/logs
+2024-08-10T06:50:37.783Z info: Created log: {"created_on":"2024-08-10T06:50:37.776Z","id":71,"expression":"15+2","is_valid":true,"output":17,"updatedAt":"2024-08-10T06:50:37.776Z","createdAt":"2024-08-10T06:50:37.776Z"}
+2024-08-10T06:50:40.098Z info: HTTP POST /api/logs
+2024-08-10T06:50:40.098Z info: Created log: {"created_on":"2024-08-10T06:50:40.092Z","id":72,"expression":"17+6","is_valid":true,"output":23,"updatedAt":"2024-08-10T06:50:40.092Z","createdAt":"2024-08-10T06:50:40.092Z"}
+2024-08-10T06:50:42.608Z info: HTTP POST /api/logs
+2024-08-10T06:50:42.609Z info: Created log: {"created_on":"2024-08-10T06:50:42.592Z","id":73,"expression":"23+5","is_valid":true,"output":28,"updatedAt":"2024-08-10T06:50:42.592Z","createdAt":"2024-08-10T06:50:42.592Z"}
+2024-08-10T06:50:46.106Z info: HTTP POST /api/logs
+2024-08-10T06:50:46.106Z info: Created log: {"created_on":"2024-08-10T06:50:46.100Z","id":74,"expression":"28-5","is_valid":true,"output":23,"updatedAt":"2024-08-10T06:50:46.100Z","createdAt":"2024-08-10T06:50:46.100Z"}
+2024-08-10T06:50:46.116Z info: HTTP GET /api/logs/long-polling
+2024-08-10T06:50:46.117Z info: Client disconnected from long polling
+2024-08-10T06:50:50.192Z info: HTTP POST /api/logs
+2024-08-10T06:50:50.192Z info: Created log: {"created_on":"2024-08-10T06:50:50.186Z","id":75,"expression":"23+3","is_valid":true,"output":26,"updatedAt":"2024-08-10T06:50:50.186Z","createdAt":"2024-08-10T06:50:50.186Z"}
+2024-08-10T06:50:52.892Z info: HTTP POST /api/logs
+2024-08-10T06:50:52.892Z info: Created log: {"created_on":"2024-08-10T06:50:52.887Z","id":76,"expression":"26+5","is_valid":true,"output":31,"updatedAt":"2024-08-10T06:50:52.887Z","createdAt":"2024-08-10T06:50:52.887Z"}
+2024-08-10T06:50:55.289Z info: HTTP POST /api/logs
+2024-08-10T06:50:55.289Z info: Created log: {"created_on":"2024-08-10T06:50:55.285Z","id":77,"expression":"31+2","is_valid":true,"output":33,"updatedAt":"2024-08-10T06:50:55.285Z","createdAt":"2024-08-10T06:50:55.285Z"}
+2024-08-10T06:50:57.907Z info: HTTP POST /api/logs
+2024-08-10T06:50:57.907Z info: Created log: {"created_on":"2024-08-10T06:50:57.903Z","id":78,"expression":"33+6","is_valid":true,"output":39,"updatedAt":"2024-08-10T06:50:57.903Z","createdAt":"2024-08-10T06:50:57.903Z"}
+2024-08-10T06:51:01.040Z info: HTTP POST /api/logs
+2024-08-10T06:51:01.040Z info: Created log: {"created_on":"2024-08-10T06:51:01.034Z","id":79,"expression":"39+3","is_valid":true,"output":42,"updatedAt":"2024-08-10T06:51:01.034Z","createdAt":"2024-08-10T06:51:01.034Z"}
+2024-08-10T06:51:01.051Z info: HTTP GET /api/logs/long-polling
+2024-08-10T06:51:01.051Z info: Client disconnected from long polling
+2024-08-10T06:52:20.167Z info: HTTP GET /api/logs/long-polling
+2024-08-10T06:52:20.167Z info: Client disconnected from long polling
+2024-08-10T06:52:30.296Z info: HTTP POST /api/logs
+2024-08-10T06:52:30.297Z info: Created log: {"created_on":"2024-08-10T06:52:30.288Z","id":80,"expression":"+3+3","is_valid":true,"output":6,"updatedAt":"2024-08-10T06:52:30.288Z","createdAt":"2024-08-10T06:52:30.288Z"}
+2024-08-10T06:52:33.305Z info: HTTP POST /api/logs
+2024-08-10T06:52:33.305Z info: Created log: {"created_on":"2024-08-10T06:52:33.299Z","id":81,"expression":"6+5","is_valid":true,"output":11,"updatedAt":"2024-08-10T06:52:33.299Z","createdAt":"2024-08-10T06:52:33.299Z"}
+2024-08-10T06:52:35.324Z info: HTTP POST /api/logs
+2024-08-10T06:52:35.324Z info: Created log: {"created_on":"2024-08-10T06:52:35.318Z","id":82,"expression":"113","is_valid":true,"output":113,"updatedAt":"2024-08-10T06:52:35.318Z","createdAt":"2024-08-10T06:52:35.318Z"}
+2024-08-10T06:52:37.987Z info: HTTP POST /api/logs
+2024-08-10T06:52:37.987Z info: Created log: {"created_on":"2024-08-10T06:52:37.981Z","id":83,"expression":"1133","is_valid":true,"output":1133,"updatedAt":"2024-08-10T06:52:37.981Z","createdAt":"2024-08-10T06:52:37.981Z"}
+2024-08-10T06:52:40.169Z info: HTTP POST /api/logs
+2024-08-10T06:52:40.170Z info: Created log: {"created_on":"2024-08-10T06:52:40.164Z","id":84,"expression":"1133+6","is_valid":true,"output":1139,"updatedAt":"2024-08-10T06:52:40.164Z","createdAt":"2024-08-10T06:52:40.164Z"}
+2024-08-10T06:52:40.179Z info: HTTP GET /api/logs/long-polling
+2024-08-10T06:52:40.179Z info: Client disconnected from long polling
+2024-08-10T06:54:11.533Z info: Server is running on port 5000
+2024-08-10T06:54:11.577Z info: Connected to MySQL and synchronized models
+2024-08-10T06:54:20.282Z info: HTTP POST /api/logs
+2024-08-10T06:54:20.283Z info: Created log: {"created_on":"2024-08-10T06:54:20.261Z","id":85,"expression":"9*5","is_valid":true,"output":45,"updatedAt":"2024-08-10T06:54:20.262Z","createdAt":"2024-08-10T06:54:20.262Z"}
+2024-08-10T06:54:24.541Z info: HTTP POST /api/logs
+2024-08-10T06:54:24.542Z info: Created log: {"created_on":"2024-08-10T06:54:24.532Z","id":86,"expression":"453+3","is_valid":true,"output":456,"updatedAt":"2024-08-10T06:54:24.532Z","createdAt":"2024-08-10T06:54:24.532Z"}
+2024-08-10T06:54:26.640Z info: HTTP POST /api/logs
+2024-08-10T06:54:26.640Z info: Created log: {"created_on":"2024-08-10T06:54:26.633Z","id":87,"expression":"456+2","is_valid":true,"output":458,"updatedAt":"2024-08-10T06:54:26.633Z","createdAt":"2024-08-10T06:54:26.633Z"}
+2024-08-10T06:54:29.903Z info: HTTP POST /api/logs
+2024-08-10T06:54:29.903Z info: Created log: {"created_on":"2024-08-10T06:54:29.898Z","id":88,"expression":"458+5","is_valid":true,"output":463,"updatedAt":"2024-08-10T06:54:29.898Z","createdAt":"2024-08-10T06:54:29.898Z"}
+2024-08-10T06:54:33.023Z info: HTTP POST /api/logs
+2024-08-10T06:54:33.023Z info: Created log: {"created_on":"2024-08-10T06:54:33.016Z","id":89,"expression":"4636","is_valid":true,"output":4636,"updatedAt":"2024-08-10T06:54:33.016Z","createdAt":"2024-08-10T06:54:33.016Z"}
+2024-08-10T06:54:33.044Z info: HTTP GET /api/logs/long-polling
+2024-08-10T06:54:33.044Z info: Client disconnected from long polling
+2024-08-10T06:54:36.019Z info: HTTP POST /api/logs
+2024-08-10T06:54:36.019Z info: Created log: {"created_on":"2024-08-10T06:54:36.012Z","id":90,"expression":"4636+8","is_valid":true,"output":4644,"updatedAt":"2024-08-10T06:54:36.012Z","createdAt":"2024-08-10T06:54:36.012Z"}
+2024-08-10T06:54:46.304Z info: HTTP POST /api/logs
+2024-08-10T06:54:46.305Z info: Created log: {"created_on":"2024-08-10T06:54:46.298Z","id":91,"expression":"4644","is_valid":true,"output":4644,"updatedAt":"2024-08-10T06:54:46.298Z","createdAt":"2024-08-10T06:54:46.298Z"}
+2024-08-10T06:54:48.563Z info: HTTP POST /api/logs
+2024-08-10T06:54:48.563Z info: Created log: {"created_on":"2024-08-10T06:54:48.557Z","id":92,"expression":"4644+3","is_valid":true,"output":4647,"updatedAt":"2024-08-10T06:54:48.557Z","createdAt":"2024-08-10T06:54:48.557Z"}
+2024-08-10T06:54:51.501Z info: HTTP POST /api/logs
+2024-08-10T06:54:51.501Z info: Created log: {"created_on":"2024-08-10T06:54:51.495Z","id":93,"expression":"4647+2","is_valid":true,"output":4649,"updatedAt":"2024-08-10T06:54:51.495Z","createdAt":"2024-08-10T06:54:51.495Z"}
+2024-08-10T06:54:53.497Z info: HTTP POST /api/logs
+2024-08-10T06:54:53.498Z info: Created log: {"created_on":"2024-08-10T06:54:53.490Z","id":94,"expression":"4649+3","is_valid":true,"output":4652,"updatedAt":"2024-08-10T06:54:53.491Z","createdAt":"2024-08-10T06:54:53.491Z"}
+2024-08-10T06:54:53.508Z info: HTTP GET /api/logs/long-polling
+2024-08-10T06:54:53.508Z info: Client disconnected from long polling
+2024-08-10T06:55:13.722Z info: Server is running on port 5000
+2024-08-10T06:55:13.762Z info: Connected to MySQL and synchronized models
+2024-08-10T06:55:26.428Z info: HTTP POST /api/logs
+2024-08-10T06:55:26.428Z info: Created log: {"created_on":"2024-08-10T06:55:26.408Z","id":95,"expression":"6-6","is_valid":true,"output":0,"updatedAt":"2024-08-10T06:55:26.409Z","createdAt":"2024-08-10T06:55:26.409Z"}
+2024-08-10T06:55:33.005Z info: HTTP POST /api/logs
+2024-08-10T06:55:33.005Z info: Created log: {"created_on":"2024-08-10T06:55:32.999Z","id":96,"expression":"0+2","is_valid":true,"output":2,"updatedAt":"2024-08-10T06:55:32.999Z","createdAt":"2024-08-10T06:55:32.999Z"}
+2024-08-10T06:55:35.118Z info: HTTP POST /api/logs
+2024-08-10T06:55:35.118Z info: Created log: {"created_on":"2024-08-10T06:55:35.112Z","id":97,"expression":"2+6","is_valid":true,"output":8,"updatedAt":"2024-08-10T06:55:35.112Z","createdAt":"2024-08-10T06:55:35.112Z"}
+2024-08-10T06:55:37.570Z info: HTTP POST /api/logs
+2024-08-10T06:55:37.570Z info: Created log: {"created_on":"2024-08-10T06:55:37.564Z","id":98,"expression":"8+3","is_valid":true,"output":11,"updatedAt":"2024-08-10T06:55:37.565Z","createdAt":"2024-08-10T06:55:37.565Z"}
+2024-08-10T06:55:40.720Z info: HTTP POST /api/logs
+2024-08-10T06:55:40.720Z info: Created log: {"created_on":"2024-08-10T06:55:40.713Z","id":99,"expression":"11+5","is_valid":true,"output":16,"updatedAt":"2024-08-10T06:55:40.714Z","createdAt":"2024-08-10T06:55:40.714Z"}
+2024-08-10T06:55:40.745Z info: HTTP GET /api/logs/long-polling
+2024-08-10T06:55:40.745Z info: Client disconnected from long polling
+2024-08-10T06:55:45.054Z info: HTTP POST /api/logs
+2024-08-10T06:55:45.054Z info: Created log: {"created_on":"2024-08-10T06:55:45.046Z","id":100,"expression":"16+3","is_valid":true,"output":19,"updatedAt":"2024-08-10T06:55:45.047Z","createdAt":"2024-08-10T06:55:45.047Z"}
+2024-08-10T06:55:47.438Z info: HTTP POST /api/logs
+2024-08-10T06:55:47.438Z info: Created log: {"created_on":"2024-08-10T06:55:47.432Z","id":101,"expression":"19+2","is_valid":true,"output":21,"updatedAt":"2024-08-10T06:55:47.432Z","createdAt":"2024-08-10T06:55:47.432Z"}
+2024-08-10T06:55:50.181Z info: HTTP POST /api/logs
+2024-08-10T06:55:50.181Z info: Created log: {"created_on":"2024-08-10T06:55:50.176Z","id":102,"expression":"21+5","is_valid":true,"output":26,"updatedAt":"2024-08-10T06:55:50.176Z","createdAt":"2024-08-10T06:55:50.176Z"}
+2024-08-10T06:55:52.918Z info: HTTP POST /api/logs
+2024-08-10T06:55:52.919Z info: Created log: {"created_on":"2024-08-10T06:55:52.911Z","id":103,"expression":"26+4","is_valid":true,"output":30,"updatedAt":"2024-08-10T06:55:52.911Z","createdAt":"2024-08-10T06:55:52.911Z"}
+2024-08-10T06:55:55.745Z info: HTTP POST /api/logs
+2024-08-10T06:55:55.746Z info: Created log: {"created_on":"2024-08-10T06:55:55.740Z","id":104,"expression":"30+2","is_valid":true,"output":32,"updatedAt":"2024-08-10T06:55:55.740Z","createdAt":"2024-08-10T06:55:55.740Z"}
+2024-08-10T06:55:55.764Z info: HTTP GET /api/logs/long-polling
+2024-08-10T06:55:55.764Z info: Client disconnected from long polling
+2024-08-10T06:56:55.165Z info: HTTP GET /api/logs/long-polling
+2024-08-10T06:56:55.167Z info: Client disconnected from long polling
+2024-08-10T06:56:56.152Z info: HTTP GET /api/logs/long-polling
+2024-08-10T06:56:56.152Z info: Client disconnected from long polling
+2024-08-10T06:57:09.054Z info: HTTP POST /api/logs
+2024-08-10T06:57:09.054Z info: Created log: {"created_on":"2024-08-10T06:57:09.045Z","id":105,"expression":"+3","is_valid":true,"output":3,"updatedAt":"2024-08-10T06:57:09.045Z","createdAt":"2024-08-10T06:57:09.045Z"}
+2024-08-10T06:57:11.780Z info: HTTP POST /api/logs
+2024-08-10T06:57:11.780Z info: Created log: {"created_on":"2024-08-10T06:57:11.772Z","id":106,"expression":"3+6","is_valid":true,"output":9,"updatedAt":"2024-08-10T06:57:11.772Z","createdAt":"2024-08-10T06:57:11.772Z"}
+2024-08-10T06:57:13.875Z info: HTTP POST /api/logs
+2024-08-10T06:57:13.875Z info: Created log: {"created_on":"2024-08-10T06:57:13.868Z","id":107,"expression":"9+3","is_valid":true,"output":12,"updatedAt":"2024-08-10T06:57:13.868Z","createdAt":"2024-08-10T06:57:13.868Z"}
+2024-08-10T06:57:16.692Z info: HTTP POST /api/logs
+2024-08-10T06:57:16.692Z info: Created log: {"created_on":"2024-08-10T06:57:16.689Z","id":108,"expression":"12+5","is_valid":true,"output":17,"updatedAt":"2024-08-10T06:57:16.689Z","createdAt":"2024-08-10T06:57:16.689Z"}
+2024-08-10T06:57:19.323Z info: HTTP POST /api/logs
+2024-08-10T06:57:19.323Z info: Created log: {"created_on":"2024-08-10T06:57:19.319Z","id":109,"expression":"17+6","is_valid":true,"output":23,"updatedAt":"2024-08-10T06:57:19.319Z","createdAt":"2024-08-10T06:57:19.319Z"}
+2024-08-10T06:57:19.343Z info: HTTP GET /api/logs/long-polling
+2024-08-10T06:57:19.343Z info: Client disconnected from long polling
+2024-08-10T06:57:30.176Z info: HTTP GET /api/logs/long-polling
+2024-08-10T06:57:30.176Z info: Client disconnected from long polling
+2024-08-10T06:57:31.154Z info: HTTP GET /api/logs/long-polling
+2024-08-10T06:57:31.155Z info: Client disconnected from long polling
+2024-08-10T06:57:48.155Z info: HTTP GET /api/logs/long-polling
+2024-08-10T06:57:48.155Z info: Client disconnected from long polling
+2024-08-10T06:57:48.991Z info: HTTP GET /api/logs/long-polling
+2024-08-10T06:57:48.992Z info: Client disconnected from long polling
+2024-08-10T06:57:55.605Z info: HTTP POST /api/logs
+2024-08-10T06:57:55.605Z info: Created log: {"created_on":"2024-08-10T06:57:55.597Z","id":110,"expression":"3+6","is_valid":true,"output":9,"updatedAt":"2024-08-10T06:57:55.597Z","createdAt":"2024-08-10T06:57:55.597Z"}
+2024-08-10T06:57:58.698Z info: HTTP POST /api/logs
+2024-08-10T06:57:58.698Z info: Created log: {"created_on":"2024-08-10T06:57:58.693Z","id":111,"expression":"9+2","is_valid":true,"output":11,"updatedAt":"2024-08-10T06:57:58.693Z","createdAt":"2024-08-10T06:57:58.693Z"}
+2024-08-10T06:58:00.948Z info: HTTP POST /api/logs
+2024-08-10T06:58:00.948Z info: Created log: {"created_on":"2024-08-10T06:58:00.942Z","id":112,"expression":"11+3","is_valid":true,"output":14,"updatedAt":"2024-08-10T06:58:00.942Z","createdAt":"2024-08-10T06:58:00.942Z"}
+2024-08-10T06:58:03.230Z info: HTTP POST /api/logs
+2024-08-10T06:58:03.230Z info: Created log: {"created_on":"2024-08-10T06:58:03.224Z","id":113,"expression":"14+6","is_valid":true,"output":20,"updatedAt":"2024-08-10T06:58:03.224Z","createdAt":"2024-08-10T06:58:03.224Z"}
+2024-08-10T06:58:05.528Z info: HTTP POST /api/logs
+2024-08-10T06:58:05.528Z info: Created log: {"created_on":"2024-08-10T06:58:05.522Z","id":114,"expression":"20+3","is_valid":true,"output":23,"updatedAt":"2024-08-10T06:58:05.522Z","createdAt":"2024-08-10T06:58:05.522Z"}
+2024-08-10T06:58:05.543Z info: HTTP GET /api/logs/long-polling
+2024-08-10T06:58:05.543Z info: Client disconnected from long polling
+2024-08-10T06:58:27.169Z info: HTTP GET /api/logs/long-polling
+2024-08-10T06:58:27.170Z info: Client disconnected from long polling
+2024-08-10T06:58:28.168Z info: HTTP GET /api/logs/long-polling
+2024-08-10T06:58:28.169Z info: Client disconnected from long polling
+2024-08-10T06:58:41.338Z info: HTTP POST /api/logs
+2024-08-10T06:58:41.338Z info: Created log: {"created_on":"2024-08-10T06:58:41.330Z","id":115,"expression":"66+2","is_valid":true,"output":68,"updatedAt":"2024-08-10T06:58:41.330Z","createdAt":"2024-08-10T06:58:41.330Z"}
+2024-08-10T06:58:43.736Z info: Created log: {"created_on":"2024-08-10T06:58:43.729Z","id":116,"expression":"68+3","is_valid":true,"output":71,"updatedAt":"2024-08-10T06:58:43.729Z","createdAt":"2024-08-10T06:58:43.729Z"}
+2024-08-10T06:58:43.735Z info: HTTP POST /api/logs
+2024-08-10T06:58:46.647Z info: HTTP POST /api/logs
+2024-08-10T06:58:46.648Z info: Created log: {"created_on":"2024-08-10T06:58:46.642Z","id":117,"expression":"71+1","is_valid":true,"output":72,"updatedAt":"2024-08-10T06:58:46.642Z","createdAt":"2024-08-10T06:58:46.642Z"}
+2024-08-10T06:58:49.728Z info: HTTP POST /api/logs
+2024-08-10T06:58:49.728Z info: Created log: {"created_on":"2024-08-10T06:58:49.723Z","id":118,"expression":"72+2","is_valid":true,"output":74,"updatedAt":"2024-08-10T06:58:49.723Z","createdAt":"2024-08-10T06:58:49.723Z"}
+2024-08-10T06:58:52.278Z info: HTTP POST /api/logs
+2024-08-10T06:58:52.279Z info: Created log: {"created_on":"2024-08-10T06:58:52.273Z","id":119,"expression":"74+5","is_valid":true,"output":79,"updatedAt":"2024-08-10T06:58:52.273Z","createdAt":"2024-08-10T06:58:52.273Z"}
+2024-08-10T06:58:52.296Z info: HTTP GET /api/logs/long-polling
+2024-08-10T06:58:52.296Z info: Client disconnected from long polling
+2024-08-10T06:59:14.178Z info: HTTP GET /api/logs/long-polling
+2024-08-10T06:59:14.178Z info: Client disconnected from long polling
+2024-08-10T07:00:00.055Z info: HTTP POST /api/logs
+2024-08-10T07:00:00.055Z info: Created log: {"created_on":"2024-08-10T07:00:00.049Z","id":120,"expression":"33+2","is_valid":true,"output":null,"updatedAt":"2024-08-10T07:00:00.049Z","createdAt":"2024-08-10T07:00:00.049Z"}
+2024-08-10T07:00:03.641Z info: HTTP POST /api/logs
+2024-08-10T07:00:03.642Z info: Created log: {"created_on":"2024-08-10T07:00:03.634Z","id":121,"expression":"+5","is_valid":true,"output":null,"updatedAt":"2024-08-10T07:00:03.634Z","createdAt":"2024-08-10T07:00:03.634Z"}
+2024-08-10T07:00:05.937Z info: HTTP POST /api/logs
+2024-08-10T07:00:05.937Z info: Created log: {"created_on":"2024-08-10T07:00:05.931Z","id":122,"expression":"+3","is_valid":true,"output":null,"updatedAt":"2024-08-10T07:00:05.931Z","createdAt":"2024-08-10T07:00:05.931Z"}
+2024-08-10T07:00:09.268Z info: HTTP POST /api/logs
+2024-08-10T07:00:09.269Z info: Created log: {"created_on":"2024-08-10T07:00:09.263Z","id":123,"expression":"+5","is_valid":true,"output":null,"updatedAt":"2024-08-10T07:00:09.263Z","createdAt":"2024-08-10T07:00:09.263Z"}
+2024-08-10T07:00:11.622Z info: HTTP POST /api/logs
+2024-08-10T07:00:11.622Z info: Created log: {"created_on":"2024-08-10T07:00:11.617Z","id":124,"expression":"+3","is_valid":true,"output":null,"updatedAt":"2024-08-10T07:00:11.617Z","createdAt":"2024-08-10T07:00:11.617Z"}
+2024-08-10T07:00:11.638Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T07:00:11.638Z info: Client disconnected from long polling
+2024-08-10T07:00:25.900Z info: HTTP POST /api/logs
+2024-08-10T07:00:25.901Z info: Created log: {"created_on":"2024-08-10T07:00:25.893Z","id":125,"expression":"3+2","is_valid":true,"output":5,"updatedAt":"2024-08-10T07:00:25.893Z","createdAt":"2024-08-10T07:00:25.893Z"}
+2024-08-10T07:00:29.095Z info: HTTP POST /api/logs
+2024-08-10T07:00:29.095Z info: Created log: {"created_on":"2024-08-10T07:00:29.089Z","id":126,"expression":"5+6","is_valid":true,"output":11,"updatedAt":"2024-08-10T07:00:29.089Z","createdAt":"2024-08-10T07:00:29.089Z"}
+2024-08-10T07:00:35.157Z info: HTTP POST /api/logs
+2024-08-10T07:00:35.158Z info: Created log: {"created_on":"2024-08-10T07:00:35.153Z","id":127,"expression":"1133+6","is_valid":true,"output":1139,"updatedAt":"2024-08-10T07:00:35.153Z","createdAt":"2024-08-10T07:00:35.153Z"}
+2024-08-10T07:00:38.141Z info: HTTP POST /api/logs
+2024-08-10T07:00:38.141Z info: Created log: {"created_on":"2024-08-10T07:00:38.136Z","id":128,"expression":"11395","is_valid":true,"output":11395,"updatedAt":"2024-08-10T07:00:38.137Z","createdAt":"2024-08-10T07:00:38.137Z"}
+2024-08-10T07:00:42.741Z info: HTTP POST /api/logs
+2024-08-10T07:00:42.741Z info: Created log: {"created_on":"2024-08-10T07:00:42.737Z","id":129,"expression":"11395","is_valid":true,"output":11395,"updatedAt":"2024-08-10T07:00:42.737Z","createdAt":"2024-08-10T07:00:42.737Z"}
+2024-08-10T07:00:42.759Z info: HTTP GET /api/logs/long-polling
+2024-08-10T07:00:42.759Z info: Client disconnected from long polling
+2024-08-10T07:03:04.552Z info: HTTP POST /api/logs
+2024-08-10T07:03:04.553Z info: Created log: {"created_on":"2024-08-10T07:03:04.544Z","id":130,"expression":"11395+2++3","is_valid":false,"output":null,"updatedAt":"2024-08-10T07:03:04.544Z","createdAt":"2024-08-10T07:03:04.544Z"}
+2024-08-10T07:03:08.919Z info: HTTP POST /api/logs
+2024-08-10T07:03:08.920Z info: Created log: {"created_on":"2024-08-10T07:03:08.915Z","id":131,"expression":"+3","is_valid":true,"output":3,"updatedAt":"2024-08-10T07:03:08.915Z","createdAt":"2024-08-10T07:03:08.915Z"}
+2024-08-10T07:03:11.934Z info: HTTP POST /api/logs
+2024-08-10T07:03:11.934Z info: Created log: {"created_on":"2024-08-10T07:03:11.929Z","id":132,"expression":"3+3","is_valid":true,"output":6,"updatedAt":"2024-08-10T07:03:11.929Z","createdAt":"2024-08-10T07:03:11.929Z"}
+2024-08-10T07:03:13.370Z info: HTTP POST /api/logs
+2024-08-10T07:03:13.370Z info: Created log: {"created_on":"2024-08-10T07:03:13.365Z","id":133,"expression":"6+","is_valid":false,"output":null,"updatedAt":"2024-08-10T07:03:13.365Z","createdAt":"2024-08-10T07:03:13.365Z"}
+2024-08-10T07:03:18.237Z info: HTTP POST /api/logs
+2024-08-10T07:03:18.237Z info: Created log: {"created_on":"2024-08-10T07:03:18.232Z","id":134,"expression":"+3","is_valid":true,"output":3,"updatedAt":"2024-08-10T07:03:18.232Z","createdAt":"2024-08-10T07:03:18.232Z"}
+2024-08-10T07:03:22.217Z info: HTTP POST /api/logs
+2024-08-10T07:03:22.218Z info: Created log: {"created_on":"2024-08-10T07:03:22.213Z","id":135,"expression":"3+3","is_valid":true,"output":6,"updatedAt":"2024-08-10T07:03:22.213Z","createdAt":"2024-08-10T07:03:22.213Z"}
+2024-08-10T07:03:28.801Z info: HTTP POST /api/logs
+2024-08-10T07:03:28.802Z info: Created log: {"created_on":"2024-08-10T07:03:28.797Z","id":136,"expression":"63","is_valid":true,"output":63,"updatedAt":"2024-08-10T07:03:28.797Z","createdAt":"2024-08-10T07:03:28.797Z"}
+2024-08-10T07:03:28.822Z info: HTTP GET /api/logs/long-polling
+2024-08-10T07:03:28.823Z info: Client disconnected from long polling
+2024-08-10T07:16:11.226Z info: Server is running on port 5000
+2024-08-10T07:16:11.270Z info: Connected to MySQL and synchronized models
+2024-08-10T07:16:30.167Z info: HTTP POST /api/logs
+2024-08-10T07:16:30.168Z info: Created log: {"created_on":"2024-08-10T07:16:30.123Z","id":137,"expression":"3+3","is_valid":true,"output":6,"updatedAt":"2024-08-10T07:16:30.126Z","createdAt":"2024-08-10T07:16:30.126Z"}
+2024-08-10T07:16:32.848Z info: HTTP POST /api/logs
+2024-08-10T07:16:32.849Z info: Created log: {"created_on":"2024-08-10T07:16:32.839Z","id":138,"expression":"6+3","is_valid":true,"output":9,"updatedAt":"2024-08-10T07:16:32.839Z","createdAt":"2024-08-10T07:16:32.839Z"}
+2024-08-10T07:16:35.543Z info: HTTP POST /api/logs
+2024-08-10T07:16:35.543Z info: Created log: {"created_on":"2024-08-10T07:16:35.534Z","id":139,"expression":"9+3","is_valid":true,"output":12,"updatedAt":"2024-08-10T07:16:35.534Z","createdAt":"2024-08-10T07:16:35.534Z"}
+2024-08-10T07:16:38.294Z info: HTTP POST /api/logs
+2024-08-10T07:16:38.294Z info: Created log: {"created_on":"2024-08-10T07:16:38.285Z","id":140,"expression":"12+6","is_valid":true,"output":18,"updatedAt":"2024-08-10T07:16:38.285Z","createdAt":"2024-08-10T07:16:38.285Z"}
+2024-08-10T07:16:41.016Z info: HTTP POST /api/logs
+2024-08-10T07:16:41.017Z info: Created log: {"created_on":"2024-08-10T07:16:41.008Z","id":141,"expression":"18+5","is_valid":true,"output":23,"updatedAt":"2024-08-10T07:16:41.008Z","createdAt":"2024-08-10T07:16:41.008Z"}
+2024-08-10T07:16:41.046Z info: HTTP GET /api/logs/long-polling
+2024-08-10T07:16:41.048Z info: Client disconnected from long polling
+2024-08-10T07:16:45.542Z info: HTTP POST /api/logs
+2024-08-10T07:16:45.543Z info: Created log: {"created_on":"2024-08-10T07:16:45.535Z","id":142,"expression":"23+3","is_valid":true,"output":26,"updatedAt":"2024-08-10T07:16:45.535Z","createdAt":"2024-08-10T07:16:45.535Z"}
+2024-08-10T07:16:48.182Z info: HTTP POST /api/logs
+2024-08-10T07:16:48.183Z info: Created log: {"created_on":"2024-08-10T07:16:48.173Z","id":143,"expression":"26+3","is_valid":true,"output":29,"updatedAt":"2024-08-10T07:16:48.174Z","createdAt":"2024-08-10T07:16:48.174Z"}
+2024-08-10T07:16:50.373Z info: HTTP POST /api/logs
+2024-08-10T07:16:50.373Z info: Created log: {"created_on":"2024-08-10T07:16:50.364Z","id":144,"expression":"29+3","is_valid":true,"output":32,"updatedAt":"2024-08-10T07:16:50.365Z","createdAt":"2024-08-10T07:16:50.365Z"}
+2024-08-10T07:16:53.096Z info: HTTP POST /api/logs
+2024-08-10T07:16:53.096Z info: Created log: {"created_on":"2024-08-10T07:16:53.086Z","id":145,"expression":"322","is_valid":true,"output":322,"updatedAt":"2024-08-10T07:16:53.086Z","createdAt":"2024-08-10T07:16:53.086Z"}
+2024-08-10T07:16:55.912Z info: HTTP POST /api/logs
+2024-08-10T07:16:55.913Z info: Created log: {"created_on":"2024-08-10T07:16:55.903Z","id":146,"expression":"322+5","is_valid":true,"output":327,"updatedAt":"2024-08-10T07:16:55.903Z","createdAt":"2024-08-10T07:16:55.903Z"}
+2024-08-10T07:16:55.930Z info: HTTP GET /api/logs/long-polling
+2024-08-10T07:16:55.931Z info: Client disconnected from long polling
+2024-08-10T07:17:25.732Z info: HTTP POST /api/logs
+2024-08-10T07:17:25.733Z info: Created log: {"created_on":"2024-08-10T07:17:25.716Z","id":147,"expression":"3+2","is_valid":true,"output":5,"updatedAt":"2024-08-10T07:17:25.717Z","createdAt":"2024-08-10T07:17:25.717Z"}
+2024-08-10T07:17:27.973Z info: HTTP POST /api/logs
+2024-08-10T07:17:27.974Z info: Created log: {"created_on":"2024-08-10T07:17:27.963Z","id":148,"expression":"53","is_valid":true,"output":53,"updatedAt":"2024-08-10T07:17:27.963Z","createdAt":"2024-08-10T07:17:27.963Z"}
+2024-08-10T07:17:30.378Z info: HTTP POST /api/logs
+2024-08-10T07:17:30.378Z info: Created log: {"created_on":"2024-08-10T07:17:30.365Z","id":149,"expression":"53+3","is_valid":true,"output":56,"updatedAt":"2024-08-10T07:17:30.365Z","createdAt":"2024-08-10T07:17:30.365Z"}
+2024-08-10T07:17:32.584Z info: HTTP POST /api/logs
+2024-08-10T07:17:32.584Z info: Created log: {"created_on":"2024-08-10T07:17:32.579Z","id":150,"expression":"56+6","is_valid":true,"output":62,"updatedAt":"2024-08-10T07:17:32.579Z","createdAt":"2024-08-10T07:17:32.579Z"}
+2024-08-10T07:17:34.914Z info: HTTP POST /api/logs
+2024-08-10T07:17:34.914Z info: Created log: {"created_on":"2024-08-10T07:17:34.906Z","id":151,"expression":"62+3","is_valid":true,"output":65,"updatedAt":"2024-08-10T07:17:34.906Z","createdAt":"2024-08-10T07:17:34.906Z"}
+2024-08-10T07:17:34.928Z info: HTTP GET /api/logs/long-polling
+2024-08-10T07:17:34.928Z info: Client disconnected from long polling
+2024-08-10T07:17:58.913Z info: Server is running on port 5000
+2024-08-10T07:17:58.953Z info: Connected to MySQL and synchronized models
+2024-08-10T07:18:08.196Z info: HTTP POST /api/logs
+2024-08-10T07:18:08.197Z info: Created log: {"created_on":"2024-08-10T07:18:08.162Z","id":152,"expression":"3+6-6","is_valid":true,"output":3,"updatedAt":"2024-08-10T07:18:08.165Z","createdAt":"2024-08-10T07:18:08.165Z"}
+2024-08-10T07:18:10.910Z info: HTTP POST /api/logs
+2024-08-10T07:18:10.911Z info: Created log: {"created_on":"2024-08-10T07:18:10.861Z","id":153,"expression":"3+2","is_valid":true,"output":5,"updatedAt":"2024-08-10T07:18:10.861Z","createdAt":"2024-08-10T07:18:10.861Z"}
+2024-08-10T07:18:13.346Z info: HTTP POST /api/logs
+2024-08-10T07:18:13.346Z info: Created log: {"created_on":"2024-08-10T07:18:13.333Z","id":154,"expression":"5+3","is_valid":true,"output":8,"updatedAt":"2024-08-10T07:18:13.333Z","createdAt":"2024-08-10T07:18:13.333Z"}
+2024-08-10T07:18:16.332Z info: HTTP POST /api/logs
+2024-08-10T07:18:16.332Z info: Created log: {"created_on":"2024-08-10T07:18:16.323Z","id":155,"expression":"8+2","is_valid":true,"output":10,"updatedAt":"2024-08-10T07:18:16.323Z","createdAt":"2024-08-10T07:18:16.323Z"}
+2024-08-10T07:18:18.629Z info: HTTP POST /api/logs
+2024-08-10T07:18:18.629Z info: Created log: {"created_on":"2024-08-10T07:18:18.615Z","id":156,"expression":"10+3","is_valid":true,"output":13,"updatedAt":"2024-08-10T07:18:18.615Z","createdAt":"2024-08-10T07:18:18.615Z"}
+2024-08-10T07:18:18.665Z info: HTTP GET /api/logs/long-polling
+2024-08-10T07:18:18.665Z info: Client disconnected from long polling
+2024-08-10T07:18:30.886Z info: HTTP POST /api/logs
+2024-08-10T07:18:30.887Z info: Created log: {"created_on":"2024-08-10T07:18:30.869Z","id":157,"expression":"13+3","is_valid":true,"output":16,"updatedAt":"2024-08-10T07:18:30.869Z","createdAt":"2024-08-10T07:18:30.869Z"}
+2024-08-10T07:18:33.533Z info: HTTP POST /api/logs
+2024-08-10T07:18:33.533Z info: Created log: {"created_on":"2024-08-10T07:18:33.524Z","id":158,"expression":"16+2","is_valid":true,"output":18,"updatedAt":"2024-08-10T07:18:33.524Z","createdAt":"2024-08-10T07:18:33.524Z"}
+2024-08-10T07:18:36.048Z info: HTTP POST /api/logs
+2024-08-10T07:18:36.048Z info: Created log: {"created_on":"2024-08-10T07:18:36.040Z","id":159,"expression":"18+1","is_valid":true,"output":19,"updatedAt":"2024-08-10T07:18:36.040Z","createdAt":"2024-08-10T07:18:36.040Z"}
+2024-08-10T07:18:39.030Z info: HTTP POST /api/logs
+2024-08-10T07:18:39.031Z info: Created log: {"created_on":"2024-08-10T07:18:39.021Z","id":160,"expression":"19+2","is_valid":true,"output":21,"updatedAt":"2024-08-10T07:18:39.022Z","createdAt":"2024-08-10T07:18:39.022Z"}
+2024-08-10T07:18:51.524Z info: HTTP POST /api/logs
+2024-08-10T07:18:51.524Z info: Created log: {"created_on":"2024-08-10T07:18:51.512Z","id":161,"expression":"21+3","is_valid":true,"output":24,"updatedAt":"2024-08-10T07:18:51.512Z","createdAt":"2024-08-10T07:18:51.512Z"}
+2024-08-10T07:18:51.542Z info: HTTP GET /api/logs/long-polling
+2024-08-10T07:18:51.542Z info: Client disconnected from long polling
+2024-08-10T07:29:02.079Z info: Server is running on port 5000
+2024-08-10T07:29:02.129Z info: Connected to MySQL and synchronized models
+2024-08-10T07:29:11.445Z info: HTTP POST /api/logs
+2024-08-10T07:29:11.445Z info: Created log: {"created_on":"2024-08-10T07:29:11.406Z","id":162,"expression":"3+2","is_valid":true,"output":5,"updatedAt":"2024-08-10T07:29:11.410Z","createdAt":"2024-08-10T07:29:11.410Z"}
+2024-08-10T07:29:13.787Z info: HTTP POST /api/logs
+2024-08-10T07:29:13.788Z info: Created log: {"created_on":"2024-08-10T07:29:13.778Z","id":163,"expression":"5+3","is_valid":true,"output":8,"updatedAt":"2024-08-10T07:29:13.778Z","createdAt":"2024-08-10T07:29:13.778Z"}
+2024-08-10T07:29:16.348Z info: HTTP POST /api/logs
+2024-08-10T07:29:16.348Z info: Created log: {"created_on":"2024-08-10T07:29:16.340Z","id":164,"expression":"8+5","is_valid":true,"output":13,"updatedAt":"2024-08-10T07:29:16.340Z","createdAt":"2024-08-10T07:29:16.340Z"}
+2024-08-10T07:29:19.473Z info: HTTP POST /api/logs
+2024-08-10T07:29:19.474Z info: Created log: {"created_on":"2024-08-10T07:29:19.466Z","id":165,"expression":"13+2","is_valid":true,"output":15,"updatedAt":"2024-08-10T07:29:19.466Z","createdAt":"2024-08-10T07:29:19.466Z"}
+2024-08-10T07:29:22.231Z info: HTTP POST /api/logs
+2024-08-10T07:29:22.231Z info: Created log: {"created_on":"2024-08-10T07:29:22.222Z","id":166,"expression":"15+6","is_valid":true,"output":21,"updatedAt":"2024-08-10T07:29:22.223Z","createdAt":"2024-08-10T07:29:22.223Z"}
+2024-08-10T07:29:22.265Z info: HTTP GET /api/logs/long-polling
+2024-08-10T07:29:22.266Z info: Client disconnected from long polling
+2024-08-10T07:30:09.555Z info: Server is running on port 5000
+2024-08-10T07:30:09.601Z info: Connected to MySQL and synchronized models
+2024-08-10T07:30:22.593Z info: HTTP POST /api/logs
+2024-08-10T07:30:22.595Z info: Created log: {"created_on":"2024-08-10T07:30:22.551Z","id":167,"expression":"9*6","is_valid":true,"output":54,"updatedAt":"2024-08-10T07:30:22.554Z","createdAt":"2024-08-10T07:30:22.554Z"}
+2024-08-10T07:30:25.073Z info: HTTP POST /api/logs
+2024-08-10T07:30:25.073Z info: Created log: {"created_on":"2024-08-10T07:30:25.064Z","id":168,"expression":"54+3","is_valid":true,"output":57,"updatedAt":"2024-08-10T07:30:25.064Z","createdAt":"2024-08-10T07:30:25.064Z"}
+2024-08-10T07:30:31.308Z info: HTTP POST /api/logs
+2024-08-10T07:30:31.309Z info: Created log: {"created_on":"2024-08-10T07:30:31.295Z","id":169,"expression":"572+5","is_valid":true,"output":577,"updatedAt":"2024-08-10T07:30:31.296Z","createdAt":"2024-08-10T07:30:31.296Z"}
+2024-08-10T07:30:33.633Z info: HTTP POST /api/logs
+2024-08-10T07:30:33.634Z info: Created log: {"created_on":"2024-08-10T07:30:33.627Z","id":170,"expression":"577+3","is_valid":true,"output":580,"updatedAt":"2024-08-10T07:30:33.627Z","createdAt":"2024-08-10T07:30:33.627Z"}
+2024-08-10T07:30:36.098Z info: HTTP POST /api/logs
+2024-08-10T07:30:36.098Z info: Created log: {"created_on":"2024-08-10T07:30:36.090Z","id":171,"expression":"580+6","is_valid":true,"output":586,"updatedAt":"2024-08-10T07:30:36.090Z","createdAt":"2024-08-10T07:30:36.090Z"}
+2024-08-10T07:30:36.127Z info: HTTP GET /api/logs/long-polling
+2024-08-10T07:30:36.128Z info: Client disconnected from long polling
+2024-08-10T07:33:34.171Z info: HTTP GET /api/logs/long-polling
+2024-08-10T07:33:34.171Z info: Client disconnected from long polling
+2024-08-10T07:34:19.165Z info: HTTP GET /api/logs/long-polling
+2024-08-10T07:34:19.165Z info: Client disconnected from long polling
+2024-08-10T07:36:37.483Z info: Server is running on port 5000
+2024-08-10T07:36:37.525Z info: Connected to MySQL and synchronized models
+2024-08-10T07:36:45.374Z info: HTTP POST /api/logs
+2024-08-10T07:36:45.375Z info: Created log: {"created_on":"2024-08-10T07:36:45.337Z","id":172,"expression":"3+3","is_valid":true,"output":6,"updatedAt":"2024-08-10T07:36:45.341Z","createdAt":"2024-08-10T07:36:45.341Z"}
+2024-08-10T07:36:47.327Z info: HTTP POST /api/logs
+2024-08-10T07:36:47.329Z info: Created log: {"created_on":"2024-08-10T07:36:47.314Z","id":173,"expression":"6+3","is_valid":true,"output":9,"updatedAt":"2024-08-10T07:36:47.314Z","createdAt":"2024-08-10T07:36:47.314Z"}
+2024-08-10T07:36:49.477Z info: HTTP POST /api/logs
+2024-08-10T07:36:49.478Z info: Created log: {"created_on":"2024-08-10T07:36:49.469Z","id":174,"expression":"9+2","is_valid":true,"output":11,"updatedAt":"2024-08-10T07:36:49.469Z","createdAt":"2024-08-10T07:36:49.469Z"}
+2024-08-10T07:36:52.723Z info: HTTP POST /api/logs
+2024-08-10T07:36:52.723Z info: Created log: {"created_on":"2024-08-10T07:36:52.713Z","id":175,"expression":"11+6","is_valid":true,"output":17,"updatedAt":"2024-08-10T07:36:52.713Z","createdAt":"2024-08-10T07:36:52.713Z"}
+2024-08-10T07:36:55.595Z info: HTTP POST /api/logs
+2024-08-10T07:36:55.595Z info: Created log: {"created_on":"2024-08-10T07:36:55.589Z","id":176,"expression":"17+2","is_valid":true,"output":19,"updatedAt":"2024-08-10T07:36:55.589Z","createdAt":"2024-08-10T07:36:55.589Z"}
+2024-08-10T07:36:55.625Z info: HTTP GET /api/logs/long-polling
+2024-08-10T07:36:55.625Z info: Client disconnected from long polling
+2024-08-10T07:40:03.291Z info: Server is running on port 5000
+2024-08-10T07:40:03.347Z info: Connected to MySQL and synchronized models
+2024-08-10T07:40:12.643Z info: HTTP POST /api/logs
+2024-08-10T07:40:12.644Z info: Created log: {"created_on":"2024-08-10T07:40:12.607Z","id":177,"expression":"9*6+3","is_valid":true,"output":57,"updatedAt":"2024-08-10T07:40:12.610Z","createdAt":"2024-08-10T07:40:12.610Z"}
+2024-08-10T07:40:15.131Z info: HTTP POST /api/logs
+2024-08-10T07:40:15.132Z info: Created log: {"created_on":"2024-08-10T07:40:15.121Z","id":178,"expression":"57+2","is_valid":true,"output":59,"updatedAt":"2024-08-10T07:40:15.121Z","createdAt":"2024-08-10T07:40:15.121Z"}
+2024-08-10T07:40:18.208Z info: HTTP POST /api/logs
+2024-08-10T07:40:18.208Z info: Created log: {"created_on":"2024-08-10T07:40:18.199Z","id":179,"expression":"59+3","is_valid":true,"output":62,"updatedAt":"2024-08-10T07:40:18.199Z","createdAt":"2024-08-10T07:40:18.199Z"}
+2024-08-10T07:40:20.612Z info: HTTP POST /api/logs
+2024-08-10T07:40:20.613Z info: Created log: {"created_on":"2024-08-10T07:40:20.605Z","id":180,"expression":"626","is_valid":true,"output":626,"updatedAt":"2024-08-10T07:40:20.605Z","createdAt":"2024-08-10T07:40:20.605Z"}
+2024-08-10T07:40:22.966Z info: HTTP POST /api/logs
+2024-08-10T07:40:22.967Z info: Created log: {"created_on":"2024-08-10T07:40:22.957Z","id":181,"expression":"626+3","is_valid":true,"output":629,"updatedAt":"2024-08-10T07:40:22.958Z","createdAt":"2024-08-10T07:40:22.958Z"}
+2024-08-10T07:40:22.997Z info: HTTP GET /api/logs/long-polling
+2024-08-10T07:40:22.997Z info: Client disconnected from long polling
+2024-08-10T07:40:32.641Z info: HTTP POST /api/logs
+2024-08-10T07:40:32.641Z info: Created log: {"created_on":"2024-08-10T07:40:32.634Z","id":182,"expression":"6293","is_valid":true,"output":6293,"updatedAt":"2024-08-10T07:40:32.634Z","createdAt":"2024-08-10T07:40:32.634Z"}
+2024-08-10T07:40:35.238Z info: HTTP POST /api/logs
+2024-08-10T07:40:35.239Z info: Created log: {"created_on":"2024-08-10T07:40:35.230Z","id":183,"expression":"6293+2","is_valid":true,"output":6295,"updatedAt":"2024-08-10T07:40:35.230Z","createdAt":"2024-08-10T07:40:35.230Z"}
+2024-08-10T07:40:37.442Z info: HTTP POST /api/logs
+2024-08-10T07:40:37.443Z info: Created log: {"created_on":"2024-08-10T07:40:37.438Z","id":184,"expression":"6295+3","is_valid":true,"output":6298,"updatedAt":"2024-08-10T07:40:37.438Z","createdAt":"2024-08-10T07:40:37.438Z"}
+2024-08-10T07:40:40.285Z info: HTTP POST /api/logs
+2024-08-10T07:40:40.285Z info: Created log: {"created_on":"2024-08-10T07:40:40.278Z","id":185,"expression":"6298+6","is_valid":true,"output":6304,"updatedAt":"2024-08-10T07:40:40.279Z","createdAt":"2024-08-10T07:40:40.279Z"}
+2024-08-10T07:40:42.873Z info: HTTP POST /api/logs
+2024-08-10T07:40:42.873Z info: Created log: {"created_on":"2024-08-10T07:40:42.866Z","id":186,"expression":"6304+6","is_valid":true,"output":6310,"updatedAt":"2024-08-10T07:40:42.866Z","createdAt":"2024-08-10T07:40:42.866Z"}
+2024-08-10T07:40:42.888Z info: HTTP GET /api/logs/long-polling
+2024-08-10T07:40:42.889Z info: Client disconnected from long polling
+2024-08-10T07:42:30.949Z info: Server is running on port 5000
+2024-08-10T07:42:30.999Z info: Connected to MySQL and synchronized models
+2024-08-10T07:43:07.188Z info: HTTP GET /api/logs/long-polling
+2024-08-10T07:43:07.190Z info: Client disconnected from long polling
+2024-08-10T07:43:08.159Z info: HTTP GET /api/logs/long-polling
+2024-08-10T07:43:08.159Z info: Client disconnected from long polling
+2024-08-10T07:43:48.885Z info: HTTP POST /api/logs
+2024-08-10T07:43:48.885Z info: Created log: {"created_on":"2024-08-10T07:43:48.851Z","id":187,"expression":"3+2","is_valid":true,"output":5,"updatedAt":"2024-08-10T07:43:48.853Z","createdAt":"2024-08-10T07:43:48.853Z"}
+2024-08-10T07:43:51.210Z info: HTTP POST /api/logs
+2024-08-10T07:43:51.212Z info: Created log: {"created_on":"2024-08-10T07:43:51.198Z","id":188,"expression":"5+3","is_valid":true,"output":8,"updatedAt":"2024-08-10T07:43:51.198Z","createdAt":"2024-08-10T07:43:51.198Z"}
+2024-08-10T07:43:53.920Z info: HTTP POST /api/logs
+2024-08-10T07:43:53.921Z info: Created log: {"created_on":"2024-08-10T07:43:53.910Z","id":189,"expression":"8+5","is_valid":true,"output":13,"updatedAt":"2024-08-10T07:43:53.910Z","createdAt":"2024-08-10T07:43:53.910Z"}
+2024-08-10T07:43:59.638Z info: HTTP POST /api/logs
+2024-08-10T07:43:59.639Z info: Created log: {"created_on":"2024-08-10T07:43:59.630Z","id":190,"expression":"13+6","is_valid":true,"output":19,"updatedAt":"2024-08-10T07:43:59.630Z","createdAt":"2024-08-10T07:43:59.630Z"}
+2024-08-10T07:44:02.520Z info: HTTP POST /api/logs
+2024-08-10T07:44:02.520Z info: Created log: {"created_on":"2024-08-10T07:44:02.511Z","id":191,"expression":"19+3","is_valid":true,"output":22,"updatedAt":"2024-08-10T07:44:02.511Z","createdAt":"2024-08-10T07:44:02.511Z"}
+2024-08-10T07:44:02.535Z info: HTTP GET /api/logs/long-polling
+2024-08-10T07:44:02.536Z info: Client disconnected from long polling
+2024-08-10T07:47:04.093Z info: HTTP POST /api/logs
+2024-08-10T07:47:04.094Z info: Created log: {"created_on":"2024-08-10T07:47:04.077Z","id":192,"expression":"3+2","is_valid":true,"output":5,"updatedAt":"2024-08-10T07:47:04.077Z","createdAt":"2024-08-10T07:47:04.077Z"}
+2024-08-10T07:47:06.607Z info: HTTP POST /api/logs
+2024-08-10T07:47:06.607Z info: Created log: {"created_on":"2024-08-10T07:47:06.600Z","id":193,"expression":"5+3","is_valid":true,"output":8,"updatedAt":"2024-08-10T07:47:06.600Z","createdAt":"2024-08-10T07:47:06.600Z"}
+2024-08-10T07:47:09.386Z info: HTTP POST /api/logs
+2024-08-10T07:47:09.386Z info: Created log: {"created_on":"2024-08-10T07:47:09.378Z","id":194,"expression":"8+6","is_valid":true,"output":14,"updatedAt":"2024-08-10T07:47:09.378Z","createdAt":"2024-08-10T07:47:09.378Z"}
+2024-08-10T07:47:12.180Z info: HTTP POST /api/logs
+2024-08-10T07:47:12.181Z info: Created log: {"created_on":"2024-08-10T07:47:12.171Z","id":195,"expression":"14+2","is_valid":true,"output":16,"updatedAt":"2024-08-10T07:47:12.171Z","createdAt":"2024-08-10T07:47:12.171Z"}
+2024-08-10T07:47:15.463Z info: HTTP POST /api/logs
+2024-08-10T07:47:15.464Z info: Created log: {"created_on":"2024-08-10T07:47:15.455Z","id":196,"expression":"16+3","is_valid":true,"output":19,"updatedAt":"2024-08-10T07:47:15.455Z","createdAt":"2024-08-10T07:47:15.455Z"}
+2024-08-10T07:47:15.480Z info: HTTP GET /api/logs/long-polling
+2024-08-10T07:47:15.481Z info: Client disconnected from long polling
+2024-08-10T07:47:24.178Z info: HTTP POST /api/logs
+2024-08-10T07:47:24.178Z info: Created log: {"created_on":"2024-08-10T07:47:24.159Z","id":197,"expression":"19+3","is_valid":true,"output":22,"updatedAt":"2024-08-10T07:47:24.160Z","createdAt":"2024-08-10T07:47:24.160Z"}
+2024-08-10T07:47:27.358Z info: Created log: {"created_on":"2024-08-10T07:47:27.350Z","id":198,"expression":"22+2","is_valid":true,"output":24,"updatedAt":"2024-08-10T07:47:27.350Z","createdAt":"2024-08-10T07:47:27.350Z"}
+2024-08-10T07:47:27.357Z info: HTTP POST /api/logs
+2024-08-10T07:47:29.698Z info: HTTP POST /api/logs
+2024-08-10T07:47:29.698Z info: Created log: {"created_on":"2024-08-10T07:47:29.691Z","id":199,"expression":"24+3","is_valid":true,"output":27,"updatedAt":"2024-08-10T07:47:29.691Z","createdAt":"2024-08-10T07:47:29.691Z"}
+2024-08-10T07:47:32.708Z info: HTTP POST /api/logs
+2024-08-10T07:47:32.708Z info: Created log: {"created_on":"2024-08-10T07:47:32.700Z","id":200,"expression":"27+1","is_valid":true,"output":28,"updatedAt":"2024-08-10T07:47:32.701Z","createdAt":"2024-08-10T07:47:32.701Z"}
+2024-08-10T07:47:35.587Z info: HTTP POST /api/logs
+2024-08-10T07:47:35.587Z info: Created log: {"created_on":"2024-08-10T07:47:35.580Z","id":201,"expression":"28+6","is_valid":true,"output":34,"updatedAt":"2024-08-10T07:47:35.580Z","createdAt":"2024-08-10T07:47:35.580Z"}
+2024-08-10T07:47:35.603Z info: HTTP GET /api/logs/long-polling
+2024-08-10T07:47:35.603Z info: Client disconnected from long polling
+2024-08-10T07:53:30.165Z info: HTTP GET /api/logs/long-polling
+2024-08-10T07:53:30.165Z info: Client disconnected from long polling
+2024-08-10T07:54:18.162Z info: HTTP GET /api/logs/long-polling
+2024-08-10T07:54:18.163Z info: Client disconnected from long polling
+2024-08-10T08:00:46.170Z info: HTTP GET /api/logs/long-polling?lastId=0
+2024-08-10T08:00:46.170Z info: Client disconnected from long polling
+2024-08-10T08:00:54.886Z info: Client disconnected from long polling
+2024-08-10T08:01:05.666Z info: HTTP POST /api/logs
+2024-08-10T08:01:05.666Z info: Created log: {"created_on":"2024-08-10T08:01:05.658Z","id":202,"expression":"+3","is_valid":true,"output":3,"updatedAt":"2024-08-10T08:01:05.658Z","createdAt":"2024-08-10T08:01:05.658Z"}
+2024-08-10T08:01:07.255Z info: HTTP GET /api/logs/long-polling?lastId=201
+2024-08-10T08:01:08.276Z info: HTTP POST /api/logs
+2024-08-10T08:01:08.276Z info: Created log: {"created_on":"2024-08-10T08:01:08.266Z","id":203,"expression":"3+3","is_valid":true,"output":6,"updatedAt":"2024-08-10T08:01:08.267Z","createdAt":"2024-08-10T08:01:08.267Z"}
+2024-08-10T08:01:10.553Z info: HTTP POST /api/logs
+2024-08-10T08:01:10.553Z info: Created log: {"created_on":"2024-08-10T08:01:10.544Z","id":204,"expression":"6+2","is_valid":true,"output":8,"updatedAt":"2024-08-10T08:01:10.544Z","createdAt":"2024-08-10T08:01:10.544Z"}
+2024-08-10T08:01:12.523Z info: HTTP POST /api/logs
+2024-08-10T08:01:12.523Z info: Created log: {"created_on":"2024-08-10T08:01:12.515Z","id":205,"expression":"8+3","is_valid":true,"output":11,"updatedAt":"2024-08-10T08:01:12.515Z","createdAt":"2024-08-10T08:01:12.515Z"}
+2024-08-10T08:01:14.981Z info: HTTP POST /api/logs
+2024-08-10T08:01:14.981Z info: Created log: {"created_on":"2024-08-10T08:01:14.974Z","id":206,"expression":"11+2","is_valid":true,"output":13,"updatedAt":"2024-08-10T08:01:14.974Z","createdAt":"2024-08-10T08:01:14.974Z"}
+2024-08-10T08:01:14.998Z info: HTTP GET /api/logs/long-polling
+2024-08-10T08:01:14.998Z info: Client disconnected from long polling
+2024-08-10T08:01:27.166Z info: HTTP GET /api/logs/long-polling
+2024-08-10T08:01:27.167Z info: Client disconnected from long polling
+2024-08-10T08:01:28.152Z info: HTTP GET /api/logs/long-polling
+2024-08-10T08:01:28.153Z info: Client disconnected from long polling

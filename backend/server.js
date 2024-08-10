@@ -8,7 +8,6 @@ const path = require('path');
 const http = require('http');
 const WebSocket = require('ws');
 
-//express app
 const app = express();
 app.use(bodyParser.json());
 app.use(cors());
@@ -28,7 +27,6 @@ const logger = winston.createLogger({
   ]
 });
 
-// Express-winston middleware to log all requests
 app.use(expressWinston.logger({
   transports: [
     new winston.transports.File({ filename: path.join(__dirname, 'logs', `${new Date().toISOString().split('T')[0]}.log`) })
@@ -39,14 +37,17 @@ app.use(expressWinston.logger({
   )
 }));
 
-// Sequelize
 const sequelize = new Sequelize('calculator', 'root', '', {
   host: 'localhost',
   dialect: 'mysql'
 });
 
-// Define the calculator_logs 
 const CalculatorLog = sequelize.define('CalculatorLog', {
+  id: {
+    type: DataTypes.INTEGER,
+    autoIncrement: true,
+    primaryKey: true
+  },
   expression: {
     type: DataTypes.STRING,
     allowNull: false
@@ -65,14 +66,12 @@ const CalculatorLog = sequelize.define('CalculatorLog', {
   }
 });
 
-// Sync the model with the database
 sequelize.sync().then(() => {
   logger.info('Connected to MySQL and synchronized models');
 }).catch((error) => {
   logger.error(`Error synchronizing models: ${error.message}`);
 });
 
-// POST API to add a record
 app.post('/api/logs', async (req, res) => {
   const { expression, is_valid, output } = req.body;
   
@@ -95,7 +94,6 @@ app.post('/api/logs', async (req, res) => {
   }
 });
 
-// GET API to fetch the latest 10 logs
 app.get('/api/logs', async (req, res) => {
   try {
     const logs = await CalculatorLog.findAll({
@@ -110,10 +108,8 @@ app.get('/api/logs', async (req, res) => {
   }
 });
 
-// HTTP server
 const server = http.createServer(app);
 
-// Setup WebSocket server
 const wss = new WebSocket.Server({ server });
 
 wss.on('connection', (ws) => {
@@ -128,8 +124,88 @@ wss.on('connection', (ws) => {
     console.error('WebSocket error:', error);
   };
 });
+// app.get('/api/logs/long-polling', async (req, res) => {
+//   const { lastId } = req.query;
+//   const lastIdNum = parseInt(lastId, 10) || 0;
+//   const POLL_INTERVAL = 5000; // Adjust as needed
 
-// Start the server
+//   // Set headers for streaming
+//   res.setHeader('Content-Type', 'application/json');
+//   res.setHeader('Transfer-Encoding', 'chunked');
+
+//   const checkForNewLogs = async () => {
+//     try {
+//       // Fetch new logs with ID greater than lastIdNum
+//       const newLogs = await CalculatorLog.findAll({
+//         where: {
+//           id: {
+//             [Sequelize.Op.gt]: lastIdNum
+//           }
+//         },
+//         limit: 5, // Limit to the latest 5 logs
+//         order: [['created_on', 'DESC']] // Ascending order by creation time
+//       });
+
+//       if (newLogs.length > 0) {
+//         // Send logs as a chunk
+//         res.write(JSON.stringify(newLogs));
+//         res.end(); // End the response
+//       } else {
+//         // No new logs, set a timeout and check again
+//         setTimeout(checkForNewLogs, POLL_INTERVAL);
+//       }
+//     } catch (error) {
+//       logger.error('Error in long polling', { error });
+//       res.status(500).json({ message: 'Internal Server Error' });
+//     }
+//   };
+
+//   checkForNewLogs();
+
+//   req.on('close', () => {
+//     logger.info('Client disconnected from long polling');
+//   });
+// });
+app.get('/api/logs/long-polling', async (req, res) => {
+  const { lastId } = req.query;
+  const lastIdNum = parseInt(lastId, 10) || 0;
+  const POLL_INTERVAL = 3000; // 3 seconds interval
+
+  res.setHeader('Content-Type', 'application/json');
+  res.setHeader('Transfer-Encoding', 'chunked');
+
+  const checkForNewLogs = async () => {
+    try {
+      const newLogs = await CalculatorLog.findAll({
+        where: {
+          id: {
+            [Sequelize.Op.gt]: lastIdNum
+          }
+        },
+        limit: 5, 
+        order: [['created_on', 'DESC']] 
+      });
+
+      if (newLogs.length > 0) {
+        res.write(JSON.stringify(newLogs));
+        res.end(); 
+      } else {
+        setTimeout(checkForNewLogs, POLL_INTERVAL);
+      }
+    } catch (error) {
+      logger.error('Error in long polling', { error });
+      res.status(500).json({ message: 'Internal Server Error' });
+    }
+  };
+
+  checkForNewLogs();
+
+  req.on('close', () => {
+    logger.info('Client disconnected from long polling');
+  });
+});
+
+
 const PORT = process.env.PORT || 5000;
 server.listen(PORT, () => {
   logger.info(`Server is running on port ${PORT}`);

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import '../styles/Calculator.css';
 
-const ShortPollingCalculator = () => {
+const LongPollingCalculator = () => {
   const [input, setInput] = useState('');
   const [result, setResult] = useState('');
   const [logs, setLogs] = useState([]);
@@ -21,18 +21,17 @@ const ShortPollingCalculator = () => {
 
   useEffect(() => {
     const fetchLogs = async () => {
-      try {
-        const response = await axios.get('http://localhost:5000/api/logs');
-        setLogs(response.data);
-      } catch (error) {
-        console.error('Error fetching logs:', error);
+      while (true) {
+        try {
+          const response = await axios.get('http://localhost:5000/api/logs');
+          setLogs(response.data);
+        } catch (error) {
+          console.error('Error fetching logs:', error);
+        }
       }
     };
 
     fetchLogs();
-    const intervalId = setInterval(fetchLogs, 5000);
-
-    return () => clearInterval(intervalId); 
   }, []);
 
   const handleClick = (value) => {
@@ -134,4 +133,4 @@ const ShortPollingCalculator = () => {
   );
 };
 
-export default ShortPollingCalculator;
+export default LongPollingCalculator;
