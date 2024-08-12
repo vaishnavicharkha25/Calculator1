@@ -166,6 +166,48 @@ wss.on('connection', (ws) => {
 //     logger.info('Client disconnected from long polling');
 //   });
 // });
+
+
+
+// app.get('/api/logs/long-polling', async (req, res) => {
+//   const { lastId } = req.query;
+//   const lastIdNum = parseInt(lastId, 10) || 0;
+//   const POLL_INTERVAL = 3000; // 3 seconds interval
+
+//   res.setHeader('Content-Type', 'application/json');
+//   res.setHeader('Transfer-Encoding', 'chunked');
+
+//   const checkForNewLogs = async () => {
+//     try {
+//       const newLogs = await CalculatorLog.findAll({
+//         where: {
+//           id: {
+//             [Sequelize.Op.gt]: lastIdNum
+//           }
+//         },
+//         limit: 5, 
+//         order: [['created_on', 'DESC']] 
+//       });
+
+//       if (newLogs.length > 0) {
+//         res.write(JSON.stringify(newLogs));
+//         res.end(); 
+//       } else {
+//         setTimeout(checkForNewLogs, POLL_INTERVAL);
+//       }
+//     } catch (error) {
+//       logger.error('Error in long polling', { error });
+//       res.status(500).json({ message: 'Internal Server Error' });
+//     }
+//   };
+
+//   checkForNewLogs();
+
+//   req.on('close', () => {
+//     logger.info('Client disconnected from long polling');
+//   });
+// });
+
 app.get('/api/logs/long-polling', async (req, res) => {
   const { lastId } = req.query;
   const lastIdNum = parseInt(lastId, 10) || 0;
@@ -173,6 +215,14 @@ app.get('/api/logs/long-polling', async (req, res) => {
 
   res.setHeader('Content-Type', 'application/json');
   res.setHeader('Transfer-Encoding', 'chunked');
+
+  const sendLogs = async (logs) => {
+    for (const log of logs) {
+      res.write(JSON.stringify(log));
+      await new Promise(resolve => setTimeout(resolve, POLL_INTERVAL));
+    }
+    res.end();
+  };
 
   const checkForNewLogs = async () => {
     try {
@@ -182,13 +232,12 @@ app.get('/api/logs/long-polling', async (req, res) => {
             [Sequelize.Op.gt]: lastIdNum
           }
         },
-        limit: 5, 
-        order: [['created_on', 'DESC']] 
+        limit: 5,
+        order: [['created_on', 'DESC']]
       });
 
       if (newLogs.length > 0) {
-        res.write(JSON.stringify(newLogs));
-        res.end(); 
+        await sendLogs(newLogs);
       } else {
         setTimeout(checkForNewLogs, POLL_INTERVAL);
       }

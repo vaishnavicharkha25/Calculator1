@@ -141,6 +141,7 @@
 //   );
 // };
 // export default LongPollingCalculator;
+
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import '../styles/Calculator.css';
@@ -153,6 +154,52 @@ const LongPollingCalculator = () => {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
 
+  // Fetch logs when evaluationCounter reaches a multiple of 5
+  useEffect(() => {
+    if (evaluationCounter > 0 && evaluationCounter % 5 === 0) {
+      const fetchNewLogs = async () => {
+        setLoading(true);
+        setError('');
+        try {
+          const response = await axios.get('http://localhost:5000/api/logs/long-polling');
+          let responseData = response.data;
+
+          // Handle unexpected response format
+          if (typeof responseData === 'string') {
+            // Convert response string to valid JSON array
+            responseData = `[${responseData.replace(/}{/g, '},{')}]`;
+            try {
+              const logsArray = JSON.parse(responseData);
+              if (Array.isArray(logsArray)) {
+                // Combine and sort logs
+                const combinedLogs = [...logs, ...logsArray];
+                const sortedLogs = combinedLogs.sort((a, b) => new Date(a.created_on) - new Date(b.created_on));
+                const latestLogs = sortedLogs.slice(-5);
+                setLogs(latestLogs);
+              } else {
+                console.error('Unexpected response format:', responseData);
+              }
+            } catch (parseError) {
+              console.error('Error parsing response:', parseError);
+              setError('Error parsing logs');
+            }
+          } else {
+            console.error('Unexpected response format:', responseData);
+            setError('Unexpected response format');
+          }
+        } catch (error) {
+          setError('Error fetching logs');
+          console.error('Error fetching logs:', error);
+        } finally {
+          setLoading(false);
+        }
+      };
+
+      fetchNewLogs(); // Fetch logs when the counter is a multiple of 5
+    }
+  }, [evaluationCounter]); // Dependency on evaluationCounter
+
+  // Handle input evaluation
   useEffect(() => {
     if (input) {
       try {
@@ -164,50 +211,8 @@ const LongPollingCalculator = () => {
       setResult('');
     }
   }, [input]);
-  
 
-  useEffect(() => {
-    const fetchNewLogs = async () => {
-      setLoading(true);
-      setError('');
-      try {
-        const response = await axios.get('http://localhost:5000/api/logs/long-polling');
-        if (response.data.length > 0) {
-          const combinedLogs = [...logs, ...response.data];
-          
-          const sortedLogs = combinedLogs.sort((a, b) => new Date(a.created_on) - new Date(b.created_on));
-          const latestLogs = sortedLogs.slice(-5);
-
-          setLogs(latestLogs);
-        }
-      } catch (error) {
-        setError('Error fetching logs');
-        console.error('Error fetching logs:', error);
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    if (evaluationCounter > 0 && evaluationCounter % 5 === 0) {
-      fetchNewLogs(); 
-    }
-  }, [evaluationCounter]);
-
-  const handleClick = (value) => {
-    if (input.length < 15) {
-      setInput(prev => prev + value);
-    }
-  };
-
-  const handleClear = () => {
-    setInput('');
-    setResult('');
-  };
-
-  const handleBackspace = () => {
-    setInput(prev => prev.slice(0, -1));
-  };
-
+  // Handle equal button click
   const handleEqual = async () => {
     if (!input) {
       alert('Expression is empty');
@@ -224,7 +229,7 @@ const LongPollingCalculator = () => {
 
       if (isValid) {
         setInput(result);
-        setEvaluationCounter(prev => prev + 1); 
+        setEvaluationCounter(prev => prev + 1); // Increment counter
       } else {
         alert('Expression is invalid');
         setInput('');
@@ -232,6 +237,22 @@ const LongPollingCalculator = () => {
     } catch (error) {
       console.error('Error adding log:', error);
     }
+  };
+
+  // Handle input button click
+  const handleClick = (value) => {
+    if (input.length < 15) {
+      setInput(prev => prev + value);
+    }
+  };
+
+  const handleClear = () => {
+    setInput('');
+    setResult('');
+  };
+
+  const handleBackspace = () => {
+    setInput(prev => prev.slice(0, -1));
   };
 
   return (
@@ -266,8 +287,6 @@ const LongPollingCalculator = () => {
       </div>
       <div className="log-table">
         <h2>Calculator Logs</h2>
-        {loading && <p>Loading logs...</p>}
-        {error && <p>{error}</p>}
         <table id='log'>
           <thead>
             <tr>
@@ -279,7 +298,7 @@ const LongPollingCalculator = () => {
             </tr>
           </thead>
           <tbody>
-            {logs.map((log) => (
+            {logs.map(log => (
               <tr key={log.id}>
                 <td>{log.id}</td>
                 <td>{log.expression}</td>
@@ -296,3 +315,4 @@ const LongPollingCalculator = () => {
 };
 
 export default LongPollingCalculator;
+
