@@ -1,0 +1,127 @@
+#log {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    padding-left: 20px ;
+  }
+  
+  #log td, #log th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #log tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #log tr:hover {background-color: #ddd;}
+  
+  #log th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #7C55A0;
+    color: white;
+  }
+  .log-table h2{
+    margin-top: 0;
+  }
+  
+ 
+  
+  input[type="checkbox"] {
+    margin: 0;
+  }
+  
+  .pagination {
+    margin-top: 10px;
+  }
+  
+  .pagination button {
+    margin: 2px;
+    padding: 5px 10px;
+    border: none;
+    background-color: transparent;
+    color: #7C55A0;
+    cursor: pointer;
+  }
+  
+  .pagination button:hover {
+    background-color: #7C55A0;
+    color: #fff;
+  }
+  
+  .pagination button:disabled {
+    background-color: transparent;
+    cursor: default;
+    color: #7C55A0;
+  }
+  
+  .pagination button.active {
+    background-color: #7C55A0;
+    color: #fff;
+  }
+  /* Add your existing styles here */
+
+.filter-icon {
+    cursor: pointer;
+    margin-left: 8px;
+  }
+  
+  .filter-modal {
+    position: absolute;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .filter-modal input[type="text"],
+  .filter-modal input[type="date"],
+  .filter-modal select {
+    padding: 8px;
+  }
+ 
+  /* Ensure the filter modal is positioned correctly relative to the header */
+  thead th {
+    position: relative;
+  }
+
+  .delete-button{
+    background-color: #7C55A0;
+    border-radius: 10px;
+    border: 2px solid #7C55A0;
+    padding: 10px;
+    padding-bottom: 7px;
+    margin-bottom: 20px;
+  }
+
+  .delete-button:focus,
+  .delete-button:hover
+  {
+    background-color: #fff;
+    color: #7C55A0;
+    border: 2px solid #7C55A0;
+    border-radius: 10px;
+    padding: 10px;
+    padding-bottom: 7px;
+    margin-bottom: 20px;
+  }
+  .delete-button:disabled:hover{
+    cursor:auto;
+    background-color: #7C55A0;
+    color: #fff;
+  }
+
+  .table-head{
+    display: flex;
+    justify-content: space-between;
+  }
+  .table-heading{
+    color: #7C55A0;
+  }
+
+  input:focus{
+    outline: none !important;
+  }
+  

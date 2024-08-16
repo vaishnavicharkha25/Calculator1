@@ -77,31 +77,7 @@
     font-size: 28px;
   }
 
-  #log {
-    font-family: Arial, Helvetica, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
-  }
-  
-  #log td, #log th {
-    border: 1px solid #ddd;
-    padding: 8px;
-  }
-  
-  #log tr:nth-child(even){background-color: #f2f2f2;}
-  
-  #log tr:hover {background-color: #ddd;}
-  
-  #log th {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    text-align: left;
-    background-color: #7C55A0;
-    color: white;
-  }
-  .log-table h2{
-    margin-top: 0;
-  }
+ 
 
   @media screen and (max-width: 800px) {
     .main{

@@ -97,7 +97,7 @@ app.post('/api/logs', async (req, res) => {
 app.get('/api/logs', async (req, res) => {
   try {
     const logs = await CalculatorLog.findAll({
-      limit: 10,
+      // limit: 10,
       order: [['created_on', 'DESC']]
     });
     res.json(logs);
@@ -252,6 +252,25 @@ app.get('/api/logs/long-polling', async (req, res) => {
   req.on('close', () => {
     logger.info('Client disconnected from long polling');
   });
+});
+
+
+app.delete('/api/logs', async (req, res) => {
+  const { ids } = req.body;
+  if (!ids || !Array.isArray(ids)) {
+    return res.status(400).json({ error: 'Invalid request' });
+  }
+
+  try {
+    await CalculatorLog.destroy({
+      where: {
+        id: ids
+      }
+    });
+    res.status(200).json({ message: 'Logs deleted successfully' });
+  } catch (error) {
+    res.status(500).json({ error: 'Internal server error' });
+  }
 });
 
 
