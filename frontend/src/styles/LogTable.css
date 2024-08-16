@@ -29,6 +29,8 @@
   
   input[type="checkbox"] {
     margin: 0;
+    width: 16px !important;
+    height: 16px !important;
   }
   
   .pagination {
@@ -97,7 +99,9 @@
   }
 
   .delete-button:focus,
-  .delete-button:hover
+  .delete-button:hover,
+  .modal-btn:hover,
+  .modal-btn:focus
   {
     background-color: #fff;
     color: #7C55A0;
@@ -105,7 +109,6 @@
     border-radius: 10px;
     padding: 10px;
     padding-bottom: 7px;
-    margin-bottom: 20px;
   }
   .delete-button:disabled:hover{
     cursor:auto;
@@ -121,7 +124,36 @@
     color: #7C55A0;
   }
 
+  input,
   input:focus{
     outline: none !important;
+    border-radius: 10px !important;
+    border: 2px solid #7C55A0;
+  }
+
+ .modal-btn-search{
+  background-color: #7C55A0;
+  border-radius: 10px;
+  border: 2px solid #7C55A0;
+  padding: 10px;
+  font-size: 14px;
+  margin-bottom: 20px;
+  margin: 3px;
+  width: 100%;
+  }
+  .modal-btn{
+  background-color: #7C55A0;
+  border-radius: 10px;
+  border: 2px solid #7C55A0;
+  padding: 10px;
+  font-size: 14px;
+  margin-bottom: 20px;
+  margin: 3px;
+  width: 100%;
+  }
+  
+  .filter-modal-btns{
+    display: flex;
+    justify-content: space-between;
   }
   

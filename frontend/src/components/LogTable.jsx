@@ -36,6 +36,7 @@ const LogTable = ({ logs }) => {
     output: '',
     created_on: '' // Date input as a string in YYYY-MM-DD format
   });
+  const [tempFilter, setTempFilter] = useState(filter); // Temporary filter state
   const [filterModal, setFilterModal] = useState({
     id: false,
     expression: false,
@@ -79,14 +80,14 @@ const LogTable = ({ logs }) => {
   };
 
   const handleFilterChange = (e, column) => {
-    setFilter((prev) => ({
+    setTempFilter((prev) => ({
       ...prev,
       [column]: e.target.value
     }));
   };
 
   const handleDateChange = (e) => {
-    setFilter((prev) => ({
+    setTempFilter((prev) => ({
       ...prev,
       created_on: e.target.value
     }));
@@ -98,6 +99,42 @@ const LogTable = ({ logs }) => {
       const updated = { id: false, expression: false, is_valid: false, output: false, created_on: false };
       updated[column] = !prev[column]; // Toggle current filter modal
       return updated;
+    });
+  };
+
+ 
+  const resetFilter = (column) => {
+    // Reset the specific column filter to empty
+    setTempFilter((prev) => ({
+      ...prev,
+      [column]: column === 'created_on' ? '' : ''
+    }));
+
+    // Close the filter modal
+    setFilterModal((prev) => ({
+      ...prev,
+      [column]: false
+    }));
+
+    // Reset filter to initial state
+    if (column === 'created_on') {
+      setFilter((prev) => ({
+        ...prev,
+        created_on: ''
+      }));
+    }
+  };
+
+  const searchFilter = () => {
+    // Apply the filter from tempFilter
+    setFilter(tempFilter);
+    // Close all filter modals after search
+    setFilterModal({
+      id: false,
+      expression: false,
+      is_valid: false,
+      output: false,
+      created_on: false
     });
   };
 
@@ -187,9 +224,13 @@ const LogTable = ({ logs }) => {
                   <input
                     type="text"
                     placeholder="Filter ID"
-                    value={filter.id}
+                    value={tempFilter.id}
                     onChange={(e) => handleFilterChange(e, 'id')}
                   />
+                  <div className='filter-modal-btns'>
+                  <button className='modal-btn' onClick={searchFilter}>Search</button>
+                  <button className='modal-btn' onClick={() => resetFilter('id')}>Reset</button>
+                  </div>
                 </div>
               )}
             </th>
@@ -205,9 +246,13 @@ const LogTable = ({ logs }) => {
                   <input
                     type="text"
                     placeholder="Filter Expression"
-                    value={filter.expression}
+                    value={tempFilter.expression}
                     onChange={(e) => handleFilterChange(e, 'expression')}
                   />
+                 <div className='filter-modal-btns'>
+                  <button className='modal-btn' onClick={searchFilter}>Search</button>
+                  <button className='modal-btn' onClick={() => resetFilter('expression')}>Reset</button>
+                </div>
                 </div>
               )}
             </th>
@@ -221,13 +266,17 @@ const LogTable = ({ logs }) => {
               {filterModal.is_valid && (
                 <div className="filter-modal">
                   <select
-                    value={filter.is_valid}
+                    value={tempFilter.is_valid}
                     onChange={(e) => handleFilterChange(e, 'is_valid')}
                   >
                     <option value="">All</option>
                     <option value="Yes">Yes</option>
                     <option value="No">No</option>
                   </select>
+                  <div className='filter-modal-btns'>
+                  <button className='modal-btn' onClick={searchFilter}>Search</button>
+                  <button className='modal-btn' onClick={() => resetFilter('is_valid')}>Reset</button>
+                </div>
                 </div>
               )}
             </th>
@@ -243,9 +292,13 @@ const LogTable = ({ logs }) => {
                   <input
                     type="text"
                     placeholder="Filter Output"
-                    value={filter.output}
+                    value={tempFilter.output}
                     onChange={(e) => handleFilterChange(e, 'output')}
                   />
+                  <div className='filter-modal-btns'>
+                  <button className='modal-btn' onClick={searchFilter}>Search</button>
+                  <button className='modal-btn' onClick={() => resetFilter('output')}>Reset</button>
+                </div>
                 </div>
               )}
             </th>
@@ -260,9 +313,13 @@ const LogTable = ({ logs }) => {
                 <div className="filter-modal">
                   <input
                     type="date"
-                    value={filter.created_on}
+                    value={tempFilter.created_on}
                     onChange={handleDateChange}
                   />
+                  <div className='filter-modal-btns'>
+                  <button className='modal-btn' onClick={searchFilter}>Search</button>
+                  <button className='modal-btn' onClick={() => resetFilter('created_on')}>Reset</button>
+                </div>
                 </div>
               )}
             </th>
