@@ -1,13 +1,12 @@
-// src/components/Calculator4.js
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import '../styles/Calculator.css';
-import LogTable from './LogTable'; // Import LogTable component
+import ReusableTable from './ReusableTable';
 
 const Calculator4 = () => {
   const [input, setInput] = useState('');
   const [result, setResult] = useState('');
-  const [logs, setLogs] = useState([]); // Add state for logs
+  const [logs, setLogs] = useState([]); 
 
   useEffect(() => {
     if (input) {
@@ -64,7 +63,7 @@ const Calculator4 = () => {
       });
 
       const newLog = response.data;
-      setLogs((prevLogs) => [newLog, ...prevLogs]); // Update logs immediately
+      setLogs((prevLogs) => [newLog, ...prevLogs]); 
 
       if (isValid) {
         setInput(result);
@@ -77,6 +76,16 @@ const Calculator4 = () => {
     }
   };
 
+  const columns = {
+    tableHeading: 'Calculator Logs',
+    columns: [
+      { id: 'id', title: 'ID', filterable: true },
+      { id: 'expression', title: 'Expression', filterable: true },
+      // { id: 'is_valid', title: 'Is Valid', filterable: true },
+      { id: 'output', title: 'Output', filterable: true },
+      { id: 'created_on', title: 'Created On', type: 'date', filterable: true },
+    ]
+  };
   return (
     <div className='main'>
       <div className="calculator">
@@ -107,8 +116,12 @@ const Calculator4 = () => {
           <button onClick={handleEqual} className="equal">=</button>
         </div>
       </div>
-      <LogTable logs={logs} /> {/* Pass logs as prop to LogTable */}
-    </div>
+      <ReusableTable
+        rows={logs}
+        columns={columns}
+        deleteApiUrl="http://localhost:5000/api/logs"
+        rowIdKey="id"
+      />    </div>
   );
 };
 

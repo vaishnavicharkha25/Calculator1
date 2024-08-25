@@ -25,7 +25,9 @@
     margin-top: 0;
   }
   
- 
+ .log-table{
+  overflow-x: auto;
+ }
   
   input[type="checkbox"] {
     margin: 0;

@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import '../styles/LogTable.css'; // Include styles if necessary
+import '../styles/LogTable.css';
 import { FaChevronLeft, FaChevronRight, FaFilter, FaTrash } from 'react-icons/fa';
 import axios from 'axios';
 
-// Utility function to format date
 const formatDate = (dateString) => {
   const date = new Date(dateString);
   const day = date.getDate().toString().padStart(2, '0');
@@ -18,10 +17,9 @@ const formatDate = (dateString) => {
   return `${day}/${month}/${year}, ${formattedHours}:${minutes}:${seconds} ${ampm}`;
 };
 
-// Utility function to format date for comparison
 const formatDateForComparison = (dateString) => {
   const date = new Date(dateString);
-  return date.toISOString().split('T')[0]; // Format for comparison as YYYY-MM-DD
+  return date.toISOString().split('T')[0]; 
 };
 
 const LogTable = ({ logs }) => {
@@ -34,9 +32,9 @@ const LogTable = ({ logs }) => {
     expression: '',
     is_valid: '',
     output: '',
-    created_on: '' // Date input as a string in YYYY-MM-DD format
+    created_on: ''
   });
-  const [tempFilter, setTempFilter] = useState(filter); // Temporary filter state
+  const [tempFilter, setTempFilter] = useState(filter);
   const [filterModal, setFilterModal] = useState({
     id: false,
     expression: false,
@@ -46,21 +44,19 @@ const LogTable = ({ logs }) => {
   });
 
   useEffect(() => {
-    // Filter logs whenever filter state or logs change
     const filtered = logs.filter((log) => {
       const idMatch = log.id ? log.id.toString().includes(filter.id) : false;
       const expressionMatch = log.expression ? log.expression.toLowerCase().includes(filter.expression.toLowerCase()) : false;
       const isValidMatch = filter.is_valid === '' || (filter.is_valid === 'Yes' && log.is_valid) || (filter.is_valid === 'No' && !log.is_valid);
       const outputMatch = filter.output === '' || (log.output && log.output.toString().startsWith(filter.output));
 
-      // Ensure date comparison
       const logDate = formatDateForComparison(log.created_on);
       const createdOnMatch = filter.created_on === '' || filter.created_on === logDate;
 
       return idMatch && expressionMatch && isValidMatch && outputMatch && createdOnMatch;
     });
     setFilteredLogs(filtered);
-    setCurrentPage(1); // Reset to first page when filters change
+    setCurrentPage(1); 
   }, [filter, logs]);
 
   const handleSelectAll = (e) => {
@@ -76,7 +72,7 @@ const LogTable = ({ logs }) => {
     setSelectedRows((prev) => ({
       ...prev,
       [id]: e.target.checked
-    }));
+    }));z
   };
 
   const handleFilterChange = (e, column) => {
@@ -94,29 +90,25 @@ const LogTable = ({ logs }) => {
   };
 
   const openFilterModal = (column) => {
-    // Close any other open filter modals
     setFilterModal((prev) => {
       const updated = { id: false, expression: false, is_valid: false, output: false, created_on: false };
-      updated[column] = !prev[column]; // Toggle current filter modal
+      updated[column] = !prev[column]; 
       return updated;
     });
   };
 
  
   const resetFilter = (column) => {
-    // Reset the specific column filter to empty
     setTempFilter((prev) => ({
       ...prev,
       [column]: column === 'created_on' ? '' : ''
     }));
 
-    // Close the filter modal
     setFilterModal((prev) => ({
       ...prev,
       [column]: false
     }));
 
-    // Reset filter to initial state
     if (column === 'created_on') {
       setFilter((prev) => ({
         ...prev,
@@ -126,9 +118,7 @@ const LogTable = ({ logs }) => {
   };
 
   const searchFilter = () => {
-    // Apply the filter from tempFilter
     setFilter(tempFilter);
-    // Close all filter modals after search
     setFilterModal({
       id: false,
       expression: false,

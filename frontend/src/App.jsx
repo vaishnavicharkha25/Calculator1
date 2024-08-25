@@ -6,11 +6,15 @@ import ShortPollingCalculator from './components/ShortPollingCalculator';
 import LongPollingCalculator from './components/LongPollingCalculator';
 import WebSocketCalculator from './components/WebSocketCalculator';
 import Calculator4 from './components/Calculator4';
+import UserDataTable from './components/UserDataTable';
 
 
 function App() {
   return (
     <Router>
+      <div>
+        <UserDataTable/>
+      </div>
         <Routes>
         <Route path="/" element={<Calculator4 />} />
           <Route path="/calculator" element={<Calculator />} />
