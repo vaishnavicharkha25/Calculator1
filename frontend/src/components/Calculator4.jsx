@@ -2,11 +2,13 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import '../styles/Calculator.css';
 import ReusableTable from './ReusableTable';
+import { useSelector } from 'react-redux';  
 
 const Calculator4 = () => {
   const [input, setInput] = useState('');
   const [result, setResult] = useState('');
   const [logs, setLogs] = useState([]); 
+  const token = useSelector((state) => state.auth.token);  
 
   useEffect(() => {
     if (input) {
@@ -26,7 +28,11 @@ const Calculator4 = () => {
 
   const fetchLogs = async () => {
     try {
-      const response = await axios.get('http://localhost:5000/api/logs');
+      const response = await axios.get('http://localhost:5000/api/logs', {
+        headers: {
+          'Authorization': `Bearer ${token}`  
+        }
+      });
       setLogs(response.data);
     } catch (error) {
       console.error('Error fetching logs:', error);
@@ -60,6 +66,10 @@ const Calculator4 = () => {
         expression: input,
         is_valid: isValid,
         output: isValid ? parseFloat(result) : null,
+      }, {
+        headers: {
+          'Authorization': `Bearer ${token}` 
+        }
       });
 
       const newLog = response.data;
@@ -121,7 +131,8 @@ const Calculator4 = () => {
         columns={columns}
         deleteApiUrl="http://localhost:5000/api/logs"
         rowIdKey="id"
-      />    </div>
+      />    
+    </div>
   );
 };
 

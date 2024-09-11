@@ -1,29 +1,34 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import './App.css'
-import Calculator from './components/Calculator';
-import ShortPollingCalculator from './components/ShortPollingCalculator';
-import LongPollingCalculator from './components/LongPollingCalculator';
-import WebSocketCalculator from './components/WebSocketCalculator';
-import Calculator4 from './components/Calculator4';
-import UserDataTable from './components/UserDataTable';
+import React, { useEffect } from 'react';
+import { Route, Routes } from 'react-router-dom';
+import SignInPage from './components/SignInPage';
+import RegisterPage from './components/RegisterPage';
+import ProfilePage from './components/ProfilePage';
+import HomePage from './components/HomePage';
+import './App.css';
+import { useSelector } from 'react-redux';
 
+const App = () => {
+  const primaryColor = useSelector((state) => state.auth.user?.primaryColor || '#FFFFFF');
+  const secondaryColor = useSelector((state) => state.auth.user?.secondaryColor || '#000000');
 
-function App() {
+  useEffect(() => {
+    document.documentElement.style.setProperty('--primary-color', primaryColor);
+    document.documentElement.style.setProperty('--secondary-color', secondaryColor);
+  }, [primaryColor, secondaryColor]);
+
+  
+
   return (
-    <Router>
-      <div>
-        <UserDataTable/>
-      </div>
-        <Routes>
-        <Route path="/" element={<Calculator4 />} />
-          <Route path="/calculator" element={<Calculator />} />
-          <Route path="/calculator/short-polling" element={<ShortPollingCalculator />} />
-          <Route path="/calculator/long-polling" element={<LongPollingCalculator />} />
-          <Route path="/calculator/web-socket" element={<WebSocketCalculator/>} />
-        </Routes>
-    </Router>
+    <>
+      <Routes>
+        <Route path="/signin" element={<SignInPage />} />
+        <Route path="/register" element={<RegisterPage />} />
+        <Route path="/profile" element={<ProfilePage />} />
+        <Route path="/home" element={<HomePage />} />
+        <Route path="/" element={<HomePage />} />
+      </Routes>
+    </>
   );
-}
+};
 
 export default App;
